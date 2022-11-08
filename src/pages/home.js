@@ -26,7 +26,7 @@ function LandingPage(){
                         </div>
                         <div className="grid grid-cols-5 gap-2 justify-items-center h-auto ">
                             <p className="hover:border-blue-500 border-b-2 border-b-transparent hover:border-b-2 cursor-pointer">Home</p>
-                            <p className="hover:border-blue-500 border-b-2 border-b-transparent hover:border-b-2 cursor-pointer">About us</p>
+                            <a href="/about" className="hover:border-blue-500 border-b-2 border-b-transparent hover:border-b-2 cursor-pointer">About us</a>
                             <p className="hover:border-blue-500 border-b-2 border-b-transparent hover:border-b-2 cursor-pointer">Join us</p>
                             <p className="hover:border-blue-500 border-b-2 border-b-transparent hover:border-b-2 cursor-pointer">Our projects</p>
                             <p className="hover:border-blue-500 border-b-2 border-b-transparent hover:border-b-2 cursor-pointer">Donate</p>
@@ -107,7 +107,7 @@ function LandingPage(){
                                     
                             </div>
                         </div>
-                        
+                    
                         <div className="flex flex-row">
                             <div className="px-5">
                                 <Climate size={50} color="rgba(231,162,50,1)"/>

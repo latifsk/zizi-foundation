@@ -7,6 +7,8 @@ import {
   } from "react-router-dom";
 
   import LandingPage from "./pages/home";
+  import Aboutzizi from "./pages/aboutZizi";
+  import ZiziProjects from "./pages/ziziProjects";
 
 
 function App() {
@@ -17,9 +19,25 @@ function App() {
       element: <LandingPage />,
     },
 
-    // {
-    //   path:"/"
-    // }
+    {
+      path:"/about",
+      element:<Aboutzizi />
+    },
+
+    {
+      path:"/projects",
+      element:<ZiziProjects />
+    },
+
+    {
+      path:"/contact",
+      element:<Aboutzizi />
+    },
+
+    {
+      path:"/projects",
+      element:<Aboutzizi />
+    },
   ]);
 
 
@@ -33,19 +51,3 @@ function App() {
 }
 
 export default App;
-
-
-
-  // const router = createBrowserRouter([
-  //   {
-  //     path: "/",
-  //     element: <div>Hello world!</div>,
-  //   },
-  // ]);
-  
-  // ReactDOM.createRoot(document.getElementById("root")).render(
-  //   <React.StrictMode>
-  //     <RouterProvider router={router} />
-  //   </React.StrictMode>
-  // );
-  
