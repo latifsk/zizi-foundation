@@ -3,7 +3,7 @@ import React from 'react'
 function Aboutzizi(){
     return(
         <div>
-            mfijijijfhjhhguguhu
+            Read about us
         </div>
     )
 }

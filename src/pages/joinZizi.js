@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Contactzizi(){
+function Joinzizi(){
     return(
         <div>
-            Contact us
+            Join us
         </div>
     )
 }
 
-export default Contactzizi;
+export default Joinzizi;

@@ -9,6 +9,8 @@ import {
   import LandingPage from "./pages/home";
   import Aboutzizi from "./pages/aboutZizi";
   import ZiziProjects from "./pages/ziziProjects";
+  import Contactzizi from "./pages/contactZizi";
+
 
 
 function App() {
@@ -31,6 +33,11 @@ function App() {
 
     {
       path:"/contact",
+      element:<Contactzizi />
+    },
+
+    {
+      path:"/projects",
       element:<Aboutzizi />
     },
 
