@@ -24,12 +24,14 @@ function LandingPage(){
                         <div>
                             logo
                         </div>
-                        <div className="grid grid-cols-5 gap-2 justify-items-center h-auto ">
-                            <p className="hover:border-blue-500 border-b-2 border-b-transparent hover:border-b-2 cursor-pointer">Home</p>
+                        <div className="grid grid-cols-6 gap-2 justify-items-center h-auto ">
+                            <a href="/" className="hover:border-blue-500 border-b-2 border-b-transparent hover:border-b-2 cursor-pointer">Home</a>
+                            <a href="/projects" className="hover:border-blue-500 border-b-2 border-b-transparent hover:border-b-2 cursor-pointer">Our projects</a>
+                            <a href="/joinus"className="hover:border-blue-500 border-b-2 border-b-transparent hover:border-b-2 cursor-pointer">Join us</a>
                             <a href="/about" className="hover:border-blue-500 border-b-2 border-b-transparent hover:border-b-2 cursor-pointer">About us</a>
-                            <p className="hover:border-blue-500 border-b-2 border-b-transparent hover:border-b-2 cursor-pointer">Join us</p>
-                            <p className="hover:border-blue-500 border-b-2 border-b-transparent hover:border-b-2 cursor-pointer">Our projects</p>
-                            <p className="hover:border-blue-500 border-b-2 border-b-transparent hover:border-b-2 cursor-pointer">Donate</p>
+                            <a href="/contact" className="hover:border-blue-500 border-b-2 border-b-transparent hover:border-b-2 cursor-pointer">Contact</a>
+                            <a href="/donate" className="hover:border-blue-500 border-b-2 border-b-transparent hover:border-b-2 cursor-pointer">Donate</a>
+
                         </div>
                     </div>
 

@@ -10,6 +10,9 @@ import {
   import Aboutzizi from "./pages/aboutZizi";
   import ZiziProjects from "./pages/ziziProjects";
   import Contactzizi from "./pages/contactZizi";
+  import Joinzizi from "./pages/joinZizi";
+  import Zizidonate from "./pages/ziziDonate";
+
 
 
 
@@ -37,13 +40,13 @@ function App() {
     },
 
     {
-      path:"/projects",
-      element:<Aboutzizi />
+      path:"/donate",
+      element:<Zizidonate />
     },
 
     {
-      path:"/projects",
-      element:<Aboutzizi />
+      path:"/joinus",
+      element:<Joinzizi />
     },
   ]);
 
