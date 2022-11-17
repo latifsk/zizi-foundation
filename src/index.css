@@ -12,6 +12,13 @@ code {
     monospace;
 }
 
+@media only screen and (max-width:700px){
+  #navOptions{
+    visibility: hidden;
+  }
+}
+
+
 
 @tailwind base;
 @tailwind components;
