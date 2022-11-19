@@ -3,15 +3,12 @@ import ReactDOM from "react-dom/client";
 import {
     createBrowserRouter,
     RouterProvider,
-    Route,
   } from "react-router-dom";
 
   import LandingPage from "./pages/home";
   import Aboutzizi from "./pages/aboutZizi";
-  import ZiziProjects from "./pages/ziziProjects";
-  import Contactzizi from "./pages/contactZizi";
   import Joinzizi from "./pages/joinZizi";
-  import Zizidonate from "./pages/ziziDonate";
+
 
 
 
@@ -30,22 +27,7 @@ function App() {
     },
 
     {
-      path:"/projects",
-      element:<ZiziProjects />
-    },
-
-    {
-      path:"/contact",
-      element:<Contactzizi />
-    },
-
-    {
-      path:"/donate",
-      element:<Zizidonate />
-    },
-
-    {
-      path:"/joinus",
+      path:"/join_us",
       element:<Joinzizi />
     },
   ]);

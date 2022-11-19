@@ -2,7 +2,7 @@ import React from "react";
 
 
 import Mainpic from '../assets/bgkids.jpg'
-
+import NaviBar from "../components/naviBar";
 
 import {BiDonateHeart as Donate} from "react-icons/bi"
 import {GrTechnology as Technology} from "react-icons/gr"
@@ -20,30 +20,20 @@ function LandingPage(){
                 <div  className="h-full flex flex-col" style={{backgroundColor:"rgba(0,0,0,0.4)"}}>
 
                     {/* navbar */}
-                    <div className="flex justify-between px-20 text-white pt-10 mb-5 ">
-                        <div>
-                            logo
-                        </div>
-                        <div id="navOptions" className="grid grid-cols-6 gap-2 justify-items-center h-auto">
-                            <a href="/" className="hover:border-blue-500 border-b-2 border-b-transparent hover:border-b-2 cursor-pointer">Home</a>
-                            <a href="/projects" className="hover:border-blue-500 border-b-2 border-b-transparent hover:border-b-2 cursor-pointer">Our projects</a>
-                            <a href="/joinus"className="hover:border-blue-500 border-b-2 border-b-transparent hover:border-b-2 cursor-pointer">Join us</a>
-                            <a href="/about" className="hover:border-blue-500 border-b-2 border-b-transparent hover:border-b-2 cursor-pointer">About us</a>
-                            <a href="/contact" className="hover:border-blue-500 border-b-2 border-b-transparent hover:border-b-2 cursor-pointer">Contact</a>
-                            <a href="/donate" className="hover:border-blue-500 border-b-2 border-b-transparent hover:border-b-2 cursor-pointer">Donate</a>
+                    <NaviBar />
 
-                        </div>
-                    </div>
 
+
+                    {/* body of page */}
                     <div className="h-full px-20 flex flex-col place-content-center">
                         <div className="text-8xl">
                             <div className="">Help maintain the </div>
                             <div className=" text-blue-500">smile. </div>
                         </div>
                         <div className="w-fit my-10">
-                            <button className=" w-fit px-10 py-2 rounded bg-blue-500 hover:bg-blue-400 ">
+                            <a href="/projects" className=" w-fit px-10 py-2 rounded bg-blue-500 hover:bg-blue-400 ">
                                 See our projects
-                            </button>
+                            </a>
                         </div>
                     </div>
 
