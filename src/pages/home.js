@@ -18,7 +18,7 @@ function LandingPage(){
     return(
         <div>
             {/* first page */}
-            <div  style={{backgroundImage: `url(${Mainpic})`, backgroundSize:"cover", height:"100vh", color:"white" }}>
+            <div id="home_container" style={{backgroundImage: `url(${Mainpic})`, backgroundSize:"cover", height:"100vh", color:"white" }}>
                 <div  className="h-full flex flex-col" style={{backgroundColor:"rgba(0,0,0,0.4)"}}>
 
                     {/* navbar */}
@@ -52,7 +52,7 @@ function LandingPage(){
                     <div className="text-blue-500 uppercase font-semibold px-5 pt-5">
                         What we do 
                     </div>
-                    <div className="text-5xl mb-5">
+                    <div className="text-5xl font-semibold mb-5">
                         Main areas of our focus
                     </div>
 
