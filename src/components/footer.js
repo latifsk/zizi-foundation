@@ -19,7 +19,7 @@ export default function FooterFull(){
                         </div>
                     </div>
                 </section>
-                <section className="bg-gray-200 text-gray-400 flex text-xs place-content-center p-5">
+                <section className="bg-gray-200 text-gray-400 flex w-full text-xs place-content-center p-5">
                     <div>
                         {"\u00A9"} 2022 Zizi Foundation | All rights reserved.
                     </div>

@@ -5,7 +5,7 @@ import FooterFull from "../components/footer.js"
 
 function Aboutzizi(){
     return(
-        <div className="">
+        <div>
             <NaviBar />
 
             {/* main body */}
