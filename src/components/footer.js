@@ -14,7 +14,7 @@ export default function FooterFull(){
                             Support our mission
                         </div>
                         <div className="grid grid-cols-2 gap-10 place-items-center">
-                            <a href="donate" className=" px-16 py-3 border border-blue-600 rounded hover:bg-blue-600 hover:text-white">Donate</a>
+                            <a href="/donate" className=" px-16 py-3 border border-blue-600 rounded hover:bg-blue-600 hover:text-white">Donate</a>
                             <a href="/join_us" className=" px-16 py-3 border bg-blue-600 rounded text-white hover:bg-blue-500 ">Volunteer</a>
                         </div>
                     </div>
