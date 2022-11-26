@@ -35,9 +35,6 @@ code {
 .copyright__container {
   padding: 30px;
   color: grey;
-  /* position: fixed;
-  bottom: 0; */
-  /* width: 100%; */
   font-weight: 100;
   font-size: 13px;
   text-align: center;
@@ -287,6 +284,9 @@ code {
   .project__section {
     flex-direction: column;
   }
+}
+
+@media only screen and (max-width: 900px) {
 }
 
 @tailwind base;
