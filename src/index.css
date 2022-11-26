@@ -230,6 +230,7 @@ code {
     visibility: hidden;
   }
 
+
   .hugetitle {
     font-size: 45px;
     font-weight: 700;
@@ -283,6 +284,7 @@ code {
   .project__group {
     justify-content: center;
   }
+
 
   .project__section {
     flex-direction: column;
