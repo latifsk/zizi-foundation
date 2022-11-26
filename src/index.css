@@ -1,24 +1,293 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --zizi-blue: rgb(29, 128, 146);
+  --zizi-yellow: rgb(231, 162, 50);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-@media only screen and (max-width:700px){
-  #navOptions{
-    visibility: hidden;
-  }
+/*components*/
+.subtitle {
+  color: var(--zizi-yellow);
+  font-size: 15px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 20px;
 }
 
+.hugetitle {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
 
+/*Copyright*/
+.copyright__container {
+  padding: 30px;
+  color: grey;
+  /* position: fixed;
+  bottom: 0; */
+  /* width: 100%; */
+  font-weight: 100;
+  font-size: 13px;
+  text-align: center;
+  background-color: rgb(237, 237, 237);
+}
+
+/*Contact Item*/
+.contactItem__container {
+  display: flex;
+  max-width: 140px;
+}
+
+.contactItem__deets {
+  flex-direction: column;
+}
+
+.contactItem__icon {
+  margin-right: 30px;
+  margin-top: 0px;
+}
+
+.contactItem__title {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.contactItem__description {
+  color: grey;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.copyright__statement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__contactItemGroup {
+  display: flex;
+  justify-content: center;
+}
+
+/*Donate*/
+.donate__body {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.donate__leftTitle {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.donate__leftDescription {
+  font-weight: 100;
+}
+
+.donate__left {
+  max-width: 40%;
+}
+
+.donate__NameOfBank,
+.donate__accountNumber {
+  color: var(--zizi-blue);
+  font-size: 25px;
+}
+
+.donate__bankAccount,
+.donate__bankName {
+  font-weight: 700;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.donateItem__title {
+  color: var(--zizi-blue);
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.donateItem__description {
+  font-weight: 100;
+  font-size: 15px;
+  color: grey;
+}
+
+.donateItem__cash {
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.donateItem__container {
+  max-width: 200px;
+  margin: 25px;
+}
+
+.donate__right {
+  display: flex;
+  margin-left: 40px;
+}
+
+/*project*/
+.project__container {
+  max-width: 240px;
+  margin: 20px;
+}
+
+.project__img {
+  height: 220px;
+  object-fit: contain;
+}
+
+.project__title {
+  font-size: 17.2px;
+  font-weight: 800;
+}
+
+.project__date {
+  font-style: italic;
+  color: rgb(184, 184, 184);
+  font-size: 12px;
+}
+
+.project__description {
+  font-weight: 100;
+  font-size: 17.2px;
+}
+
+.project__group {
+  display: flex;
+}
+
+.project__section {
+  display: flex;
+  justify-content: center;
+}
+
+/*support*/
+.support {
+  margin-top: 50px;
+}
+
+.support__hr {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.support__buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.support__donate {
+  border: 2px solid var(--zizi-blue);
+  padding: 12px 20px;
+  margin-right: 25px;
+  width: 220px;
+  border-radius: 5px;
+}
+
+.support__donate:hover {
+  border: 2px solid;
+}
+
+.support__volunteer:hover {
+  background-color: rgb(38, 111, 124);
+  transition: all 0.4s ease;
+}
+
+.support__volunteer {
+  border: 2px solid var(--zizi-blue);
+  background-color: var(--zizi-blue);
+  color: white;
+  padding: 12px 20px;
+  width: 220px;
+  border-radius: 5px;
+}
+
+.support__container {
+  /* justify-content: center; */
+}
+
+/*media screens*/
+@media only screen and (max-width: 750px) {
+  #navOptions {
+    visibility: hidden;
+  }
+
+  .hugetitle {
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  .contact__contactItemGroup {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contactItem__container {
+    margin-bottom: 50px;
+  }
+
+  .contactItem__icon {
+    margin-right: 30px;
+    margin-top: 0px;
+  }
+
+  .contactItem__title {
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  .contactItem__description {
+    color: grey;
+    font-weight: 100;
+    font-size: 13px;
+  }
+
+  .donate__body {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .support__donate {
+    width: 150px;
+  }
+
+  .support__volunteer {
+    width: 150px;
+  }
+
+  .project__img {
+    height: 300px;
+    object-fit: contain;
+  }
+
+  .project__group {
+    justify-content: center;
+  }
+
+  .project__section {
+    flex-direction: column;
+  }
+}
 
 @tailwind base;
 @tailwind components;
