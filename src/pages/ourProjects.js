@@ -22,7 +22,7 @@ function OurProjects() {
               title="New wells and clear water project"
               date={"11/23/2022"}
               description={
-                "four words when i think about them is crusty, musty, dusty, rusty; 8 words when i think about you fuck me fuck me fuck me fuck me"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at velit eu tellus faucibus maximus. Fusce ac nisi vulputate, suscipit lectus a, congue odio. Nam nec iaculis est. Integer suscipit justo ex. Morbi nec placerat nulla. Nunc accumsan euismod dictum. Nulla facilisi."
               }
             />
 
@@ -31,7 +31,7 @@ function OurProjects() {
               title="New wells and clear water project"
               date={"11/23/2022"}
               description={
-                "four words when i think about them is crusty, musty, dusty, rusty; 8 words when i think about you fuck me fuck me fuck me fuck me"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at velit eu tellus faucibus maximus. Fusce ac nisi vulputate, suscipit lectus a, congue odio. Nam nec iaculis est. Integer suscipit justo ex. Morbi nec placerat nulla. Nunc accumsan euismod dictum. Nulla facilisi."
               }
             />
           </div>
@@ -42,7 +42,7 @@ function OurProjects() {
               title="New wells and clear water project"
               date={"11/23/2022"}
               description={
-                "four words when i think about them is crusty, musty, dusty, rusty; 8 words when i think about you fuck me fuck me fuck me fuck me"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at velit eu tellus faucibus maximus. Fusce ac nisi vulputate, suscipit lectus a, congue odio. Nam nec iaculis est. Integer suscipit justo ex. Morbi nec placerat nulla. Nunc accumsan euismod dictum. Nulla facilisi."
               }
             />
 
@@ -51,7 +51,7 @@ function OurProjects() {
               title="New wells and clear water project"
               date={"11/23/2022"}
               description={
-                "four words when i think about them is crusty, musty, dusty, rusty; 8 words when i think about you fuck me fuck me fuck me fuck me"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at velit eu tellus faucibus maximus. Fusce ac nisi vulputate, suscipit lectus a, congue odio. Nam nec iaculis est. Integer suscipit justo ex. Morbi nec placerat nulla. Nunc accumsan euismod dictum. Nulla facilisi."
               }
             />
           </div>
