@@ -32,43 +32,7 @@ function Donate() {
             <div className="donate__NameOfBank">Inter Bank</div>
           </div>
 
-          <div className="donate__right">
-            <div>
-              <DonateItem
-                cash={10}
-                title={"DONATE TO 1 PROJECT"}
-                description={
-                  "Voluptatem accusantium doloremque laudantium totam."
-                }
-              />
-
-              <DonateItem
-                cash={100}
-                title={"DONATE TO 10 PROJECT"}
-                description={
-                  "Voluptatem accusantium doloremque laudantium totam."
-                }
-              />
-            </div>
-
-            <div>
-              <DonateItem
-                cash={60}
-                title={"DONATE TO 6 PROJECT"}
-                description={
-                  "Voluptatem accusantium doloremque laudantium totam."
-                }
-              />
-
-              <DonateItem
-                cash={600}
-                title={"DONATE TO 10 PROJECT"}
-                description={
-                  "Voluptatem accusantium doloremque laudantium totam."
-                }
-              />
-            </div>
-          </div>
+          <div className="donate__right">How to donate</div>
         </div>
 
         <Copyright />

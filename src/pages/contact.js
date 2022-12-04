@@ -48,7 +48,7 @@ function Contact() {
               />
             }
             title={"Email"}
-            description={"12 Pike St New York, NY 10002"}
+            description={`zizifoundation           gh@gmail.com`}
           />
 
           <ContactItem
@@ -60,7 +60,9 @@ function Contact() {
               />
             }
             title={"Follow Us"}
-            description={"12 Pike St New York, NY 10002"}
+            description={
+              "Twitter: zizifoundation           Instagram: Zizifoundationgh            Facebook: Zizi foundation"
+            }
           />
         </div>
         <Support />
