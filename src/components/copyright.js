@@ -11,7 +11,7 @@ function Copyright() {
           Foundation | All rights reserved.
         </div>
         <div className="copyright__poweredBy">
-          Powered by <a href="#EskayTorsu">Eskay & Torsu</a>
+          Powered by <a href="#EskayTorsu">ExT</a>
         </div>
       </div>
     </div>

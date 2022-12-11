@@ -45,7 +45,7 @@ function Joinzizi(){
                                     <textarea maxLength={200} type={'text'} className='border p-1' />
                                 </div>
 
-                                <input type={'submit'} className='border mt-5 py-3 px-10 rounded text-white font-medium bg-blue-600 hover:bg-blue-500 cursor-pointer' value={"Become a Hero"}  />
+                                <input type={'submit'} className='border mt-5 py-3 px-10 rounded text-white animate-pulse font-medium bg-blue-600 hover:bg-blue-500 cursor-pointer' value={"Become a Hero"}  />
                                 
                             </form>
 

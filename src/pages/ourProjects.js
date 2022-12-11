@@ -22,7 +22,7 @@ function OurProjects() {
               title="New wells and clear water project"
               date={"11/23/2022"}
               description={
-                "four words when i think about them is crusty, musty, dusty, rusty; 8 words when i think about you fuck me fuck me fuck me fuck me"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et egestas est, vel aliquam enim. Nam bibendum pretium placerat. Vestibulum ante ipsum primis in faucibus orci luctus e"
               }
             />
 
@@ -31,7 +31,7 @@ function OurProjects() {
               title="New wells and clear water project"
               date={"11/23/2022"}
               description={
-                "four words when i think about them is crusty, musty, dusty, rusty; 8 words when i think about you fuck me fuck me fuck me fuck me"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et egestas est, vel aliquam enim. Nam bibendum pretium placerat. Vestibulum ante ipsum primis in faucibus orci luctus e"
               }
             />
           </div>
@@ -42,7 +42,7 @@ function OurProjects() {
               title="New wells and clear water project"
               date={"11/23/2022"}
               description={
-                "four words when i think about them is crusty, musty, dusty, rusty; 8 words when i think about you fuck me fuck me fuck me fuck me"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et egestas est, vel aliquam enim. Nam bibendum pretium placerat. Vestibulum ante ipsum primis in faucibus orci luctus e"
               }
             />
 
@@ -51,7 +51,7 @@ function OurProjects() {
               title="New wells and clear water project"
               date={"11/23/2022"}
               description={
-                "four words when i think about them is crusty, musty, dusty, rusty; 8 words when i think about you fuck me fuck me fuck me fuck me"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et egestas est, vel aliquam enim. Nam bibendum pretium placerat. Vestibulum ante ipsum primis in faucibus orci luctus e"
               }
             />
           </div>
@@ -65,7 +65,7 @@ function OurProjects() {
               title="New wells and clear water project"
               date={"11/23/2022"}
               description={
-                "four words when i think about them is crusty, musty, dusty, rusty; 8 words when i think about you fuck me fuck me fuck me fuck me"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et egestas est, vel aliquam enim. Nam bibendum pretium placerat. Vestibulum ante ipsum primis in faucibus orci luctus e"
               }
             />
 
@@ -74,7 +74,7 @@ function OurProjects() {
               title="New wells and clear water project"
               date={"11/23/2022"}
               description={
-                "four words when i think about them is crusty, musty, dusty, rusty; 8 words when i think about you fuck me fuck me fuck me fuck me"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et egestas est, vel aliquam enim. Nam bibendum pretium placerat. Vestibulum ante ipsum primis in faucibus orci luctus e"
               }
             />
           </div>
@@ -85,7 +85,7 @@ function OurProjects() {
               title="New wells and clear water project"
               date={"11/23/2022"}
               description={
-                "four words when i think about them is crusty, musty, dusty, rusty; 8 words when i think about you fuck me fuck me fuck me fuck me"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et egestas est, vel aliquam enim. Nam bibendum pretium placerat. Vestibulum ante ipsum primis in faucibus orci luctus e"
               }
             />
 
@@ -94,7 +94,7 @@ function OurProjects() {
               title="New wells and clear water project"
               date={"11/23/2022"}
               description={
-                "four words when i think about them is crusty, musty, dusty, rusty; 8 words when i think about you fuck me fuck me fuck me fuck me"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et egestas est, vel aliquam enim. Nam bibendum pretium placerat. Vestibulum ante ipsum primis in faucibus orci luctus e"
               }
             />
           </div>
