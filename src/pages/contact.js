@@ -9,7 +9,7 @@ import { FiHeart, FiMail, FiMapPin, FiPhone } from "react-icons/fi";
 
 function Contact() {
   return (
-    <div className="contact">
+    <div className="contact" style={{ height: "100vh" }}>
       <div className="contact__container">
         <Navibar />
         <Subtitle subtitle="Contact us" />
