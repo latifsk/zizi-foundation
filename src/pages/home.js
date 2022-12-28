@@ -7,18 +7,21 @@ import FooterFull from "../components/footer";
 
 
 import {BiDonateHeart as Donate} from "react-icons/bi"
-import {GrTechnology as Technology} from "react-icons/gr"
+import {GiMicrochip as Technology} from "react-icons/gi"
 import {GiTrophiesShelf as Leadership} from "react-icons/gi"
-import {SiCodeclimate as Climate} from "react-icons/si"
+import {TiWeatherPartlySunny as Climate} from "react-icons/ti"
+import {MdOutlineEmojiFoodBeverage as Food} from "react-icons/md"
 
+
+import {projectHighlight} from "../datasets/projectData.js"
 
 function LandingPage(){
-
+ 
 
     return(
         <div>
             {/* first page */}
-            <div id="home_container" style={{backgroundImage: `url(${Mainpic})`, backgroundSize:"cover", height:"100vh", color:"white" }}>
+            <div id="home_container" style={{backgroundImage: `url(${Mainpic})`, backgroundSize:"", height:"100vh", color:"white" }}>
                 <div  className="h-full flex flex-col" style={{backgroundColor:"rgba(0,0,0,0.4)"}}>
 
                     {/* navbar */}
@@ -89,7 +92,7 @@ function LandingPage(){
                         
                         <div className="flex flex-row">
                             <div className="px-5">
-                                <Technology size={60} color="rgba(231,162,50,1)"/>
+                                <Technology size={50} color="rgba(231,162,50,1)"/>
                             </div>
                             <div>
                                 <div className="font-bold">
@@ -114,6 +117,20 @@ function LandingPage(){
                                     Youth sensitization on climate issues. Developing pragmatic measures to mitigate potential impact of climate change as well as empowering the youth to engage in tree planting                                </div>
                             </div>
                         </div>
+
+                         <div className="flex flex-row">
+                            <div className="px-5">
+                                <Food size={50} color="rgba(231,162,50,1)"/>
+                            </div>
+                            <div>
+                                <div className="font-bold">
+                                    Food security
+                                </div>
+                                <div>
+                                    Offer mentoring programs that support and empower youth in agriculture as well as farmer education and training.
+                                </div>
+                            </div>
+                        </div>
                         
 
                     </div>
@@ -127,7 +144,7 @@ function LandingPage(){
                             This is our story
                         </div>
                         <div className="py-5">
-                            Story content
+                            Zizifoundation is a philanthropic grassroot non-profit organization based in Accra-Ghana. Through philanthropy and solidarity, we partner other local organizations to implement grassroot social interventions that seek to support the less privileged in society...
                         </div>
                         <div className="text-blue-500" >
                             <a href="/about">Read more  </a>
@@ -143,58 +160,60 @@ function LandingPage(){
             {/* 3rd part */}
             <div style={{height:"100vh"}}>
 
-                  {/* page 3 part A */}
-                  <div className="h-1/4 text-white text-left " >
-                    <div className="flex h-full text-sm  flex-row justify-between p-20 lg:justify-around" style={{backgroundColor:"rgba(231,162,50,0.2)"}}>
+        {
+                //   {/* page 3 part A */}
+                //   <div className="h-1/4 text-white text-left " >
+                //     <div className="flex h-full text-sm  flex-row justify-between p-20 lg:justify-around" style={{backgroundColor:"rgba(231,162,50,0.2)"}}>
 
-                        {/* box of elements on each column for completed projects counter **remember to match project count in all categories */}
-                        <div className="">
-                            <div className="font-extrabold  text-5xl text-black">
-                                8
-                            </div>
-                            <div className="font-medium uppercase text-xs text-blue-500">
-                                Completed Projects
-                            </div>
-                            {/* <div>
-                                Completed Projects
-                            </div> */}
+                //         {/* box of elements on each column for completed projects counter **remember to match project count in all categories */}
+                //         <div className="">
+                //             <div className="font-extrabold  text-5xl text-black">
+                //                 8
+                //             </div>
+                //             <div className="font-medium uppercase text-xs text-blue-500">
+                //                 Completed Projects
+                //             </div>
+                //             {/* <div>
+                //                 Completed Projects
+                //             </div> */}
                             
-                        </div>
+                //         </div>
 
-                        {/* column for volunteer count */}
-                        <div className="">
-                            <div className="font-extrabold text-5xl text-black">
-                                126
-                            </div>
-                            <div className="font-medium uppercase text-xs text-blue-500">
-                                Volunteers
-                            </div>
-                            {/* <div>
-                                Completed Projects
-                            </div> */}
+                //         {/* column for volunteer count */}
+                //         <div className="">
+                //             <div className="font-extrabold text-5xl text-black">
+                //                 126
+                //             </div>
+                //             <div className="font-medium uppercase text-xs text-blue-500">
+                //                 Volunteers
+                //             </div>
+                //             {/* <div>
+                //                 Completed Projects
+                //             </div> */}
                             
-                        </div>
+                //         </div>
 
-                        {/* column for to-be-determined entity */}
-                        <div className="">
-                            <div className="font-extrabold text-5xl text-black">
-                                7
-                            </div>
-                            <div className="font-medium uppercase text-xs text-blue-500">
-                                Sponsors
-                            </div>
-                            {/* <div>
-                                Completed Projects
-                            </div> */}
+                //         {/* column for to-be-determined entity */}
+                //         <div className="">
+                //             <div className="font-extrabold text-5xl text-black">
+                //                 7
+                //             </div>
+                //             <div className="font-medium uppercase text-xs text-blue-500">
+                //                 Sponsors
+                //             </div>
+                //             {/* <div>
+                //                 Completed Projects
+                //             </div> */}
                             
-                        </div>
+                //         </div>
 
-                    </div>
-                </div>
+                //     </div>
+                // </div>
+}
 
 
                 {/* page 3 part B */} 
-                <div className="flex flex-col place-items-center h-3/4 w-full pb-10">
+                <div style={{height:"100vh"}} className=" bg-slate-300 flex flex-col place-items-center justify-between p-15 pb-10">
                     <div className="text-blue-500 uppercase font-semibold px-5 pt-5">
                         How we help 
                     </div>
@@ -202,73 +221,35 @@ function LandingPage(){
                        Current projects
                     </div>
 
-                    <div className="grid grid-cols-4 gap-10 p-20 w-auto lg:w-1/2">
-                        <div className="flex flex-col">
-                            <div>
-                                Pic
-                            </div>
-                            <div>
-                                title
-                            </div>
-                            <div>
-                                date
-                            </div>
-                            <div>
-                                Summary
-                            </div>
-                        </div>
+                    <div className="grid grid-cols-3 gap-10 w-auto px-20 lg:w-1/2">
+                        {projectHighlight.slice(0,4).map((item)=>{
 
-                        <div className="flex flex-col">
-                            <div>
-                                Pic
-                            </div>
-                            <div>
-                                title
-                            </div>
-                            <div>
-                                date
-                            </div>
-                            <div>
-                                Summary
-                            </div>
-                        </div>
-                        
-                        <div className="flex flex-col">
-                            <div>
-                                Pic
-                            </div>
-                            <div>
-                                title
-                            </div>
-                            <div>
-                                date
-                            </div>
-                            <div>
-                                Summary
-                            </div>
-                        </div>
-                    
-                        <div className="flex flex-col">
-                            <div>
-                                Pic
-                            </div>
-                            <div>
-                                title
-                            </div>
-                            <div>
-                                date
-                            </div>
-                            <div>
-                                Summary 
-                            </div>
-                        </div>
+                                return (
+                                    <div className="flex flex-col">
+                                        <img src={item.imgUrl} alt={"project higlights"} />
+                                        <div>
+                                            {item.title}
+                                        </div>
+                                        <div>
+                                            {item.date}
+                                        </div>
+                                        <div>
+                                            {item.summaryText}
+                                        </div>
+                                    </div>
+    
+                                )
+                            
+
+                        })}
+
                         
 
                     </div>
                     
                     {/* see projects button */}
                     <div>
-                        <button className="border border-blue-600 px-10 py-2 rounded hover:bg-blue-600 hover:text-white">See all projects</button>
+                        <a href="/our_projects" className="border border-blue-600 px-10 py-2 rounded hover:bg-blue-600 hover:text-white">See all projects</a>
                     </div>
                 </div>
 

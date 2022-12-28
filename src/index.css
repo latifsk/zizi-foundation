@@ -79,6 +79,7 @@ code {
 .contact__contactItemGroup {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 /*Donate*/
