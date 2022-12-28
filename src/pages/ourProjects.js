@@ -15,7 +15,6 @@ import Support from "../components/support";
 import Navibar from "../components/naviBar";
 
 
-import {projectHighlight} from "../datasets/projectData.js"
 
 
 function OurProjects() {
@@ -24,10 +23,9 @@ function OurProjects() {
       <div className="outProjects__container">
         <Navibar />
         <Subtitle subtitle="How we help" />
-        <HugeTitle hugetitle="Past projects" />
+        <HugeTitle hugetitle="Past events" />
 
-        <div className="project__section">
-          <div className="project__group">
+        <div id="progrid" className="project__section  place-items-center grid sm:grid-cols-2 lg:grid-cols-4 p-10">
 
           <Project
               img={less_privileged}
@@ -48,9 +46,7 @@ function OurProjects() {
 
               }
             />
-          </div>
 
-          <div className="project__group">
             <Project
               img={gifts}
               title="RamaFest"
@@ -71,8 +67,7 @@ function OurProjects() {
               "Zizifoundation believes in putting smiles on the faces of the less privileged. Zizifoundation in collaboration with PiquantByhysher, took this enviable gesture to another level, occasioned by a picnic organized for the kids at the orphanage. The event also included a donation of educational materials and some clothes for the kids."
 
               }
-            /> */}
-          </div>
+            /> 
         </div>
 
         {/**Current Projects row */}
@@ -113,7 +108,7 @@ function OurProjects() {
                 "Education is surely the key to every nation’s development. Education is one of the core mandates of Zizifoundation. The foundation seeks to empower the youth in leadership, entrepreneurship, and technology through various educational programs. EduFare is one of the educational programs slated by zizifoundation, which is aimed at identifying and supporting various schools in deprived communities with teaching and learning materials. As an advocate of education, we believe these numerous supports would go a long way to bring positive change in education."
 
               }
-            /> */}
+            /> 
           </div>
         </div>
 
