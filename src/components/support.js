@@ -6,7 +6,7 @@ import Subtitle from "./subtitle";
 
 function Support() {
   return (
-    <div className="support">
+    <div className="support mt-20">
       <div className="support__container">
         <div className="support__hr">
           <hr />
@@ -14,8 +14,8 @@ function Support() {
         <Subtitle subtitle={"What now?"} />
         <HugeTitle hugetitle={"Support our mission"} />
         <div className="support__buttons">
-          <button className="support__donate">DONATE</button>
-          <button className="support__volunteer">VOLUNTEER</button>
+          <a href="/donate" className="support__donate">DONATE</a>
+          <a href="/join_us" className="support__volunteer">VOLUNTEER</a>
         </div>
 
         <Copyright />

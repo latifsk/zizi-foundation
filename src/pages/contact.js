@@ -9,11 +9,13 @@ import { FiHeart, FiMail, FiMapPin, FiPhone } from "react-icons/fi";
 
 function Contact() {
   return (
-    <div className="contact" style={{ height: "100vh" }}>
-      <div className="contact__container">
+
+    <div className="contact ">
+      {/* <div className="contact__container"> */}
         <Navibar />
         <Subtitle subtitle="Contact us" />
         <HugeTitle hugetitle="We are looking forward to hearing from you" />
+
         <div className="contact__contactItemGroup">
           <ContactItem
             icon={
@@ -66,7 +68,7 @@ function Contact() {
           />
         </div>
         <Support />
-      </div>
+      {/* </div> */}
     </div>
   );
 }
