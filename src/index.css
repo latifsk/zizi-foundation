@@ -177,6 +177,14 @@ code {
   justify-content: center;
 }
 
+@media only screen and (max-width: 600px) {
+  #progrid{
+    grid-column: 1;
+  }
+
+}
+
+
 /*support*/
 .support {
   margin-top: 50px;
@@ -293,8 +301,8 @@ code {
   }
 }
 
-@media only screen and (max-width: 900px) {
-}
+/* @media only screen and (max-width: 900px) {
+} */
 
 @tailwind base;
 @tailwind components;
