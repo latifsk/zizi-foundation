@@ -35,9 +35,6 @@ code {
 .copyright__container {
   padding: 30px;
   color: grey;
-  /* position: fixed;
-  bottom: 0; */
-  /* width: 100%; */
   font-weight: 100;
   font-size: 13px;
   text-align: center;
@@ -144,18 +141,19 @@ code {
 
 /*project*/
 .project__container {
-  max-width: 240px;
+  max-width: 270px;
   margin: 20px;
 }
 
 .project__img {
   height: 220px;
-  object-fit: contain;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .project__title {
   font-size: 17.2px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .project__date {
@@ -171,6 +169,7 @@ code {
 
 .project__group {
   display: flex;
+  justify-content: center;
 }
 
 .project__section {
@@ -222,6 +221,9 @@ code {
 }
 
 .support__container {
+  /* position: relative;
+  bottom: 0;
+  width: 100%; */
   /* justify-content: center; */
 }
 
@@ -230,7 +232,6 @@ code {
   #navOptions {
     visibility: hidden;
   }
-
 
   .hugetitle {
     font-size: 45px;
@@ -278,18 +279,21 @@ code {
   }
 
   .project__img {
-    height: 300px;
-    object-fit: contain;
+    height: 220px;
   }
 
   .project__group {
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
-
 
   .project__section {
     flex-direction: column;
   }
+}
+
+@media only screen and (max-width: 900px) {
 }
 
 @tailwind base;
