@@ -44,7 +44,9 @@ code {
 /*Contact Item*/
 .contactItem__container {
   display: flex;
-  max-width: 140px;
+  align-items: center;
+  margin: 20px;
+  max-width: 200px;
 }
 
 .contactItem__deets {
@@ -142,29 +144,42 @@ code {
 /*project*/
 .project__container {
   max-width: 270px;
-  margin: 20px;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.project__container:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.3s ease;
 }
 
 .project__img {
   height: 220px;
   object-fit: cover;
   border-radius: 10px;
+  padding: 2px;
 }
 
 .project__title {
   font-size: 17.2px;
   font-weight: 700;
+  padding: 10px;
 }
 
 .project__date {
   font-style: italic;
   color: rgb(184, 184, 184);
   font-size: 12px;
+  padding-left: 10px;
 }
 
 .project__description {
+  text-overflow: ellipsis;
+  overflow: hidden;
   font-weight: 100;
   font-size: 17.2px;
+  padding: 10px;
 }
 
 .project__group {
@@ -177,13 +192,57 @@ code {
   justify-content: center;
 }
 
-@media only screen and (max-width: 600px) {
-  #progrid{
-    grid-column: 1;
-  }
-
+/*Project Details*/
+.projectDetails__image {
+  object-fit: contain;
+  height: 100vh;
+  width: 100%;
+  position: relative;
 }
 
+.projectDetails__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  background-color: var(--zizi-yellow);
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+
+.projectDetails__date {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+.projectDetails__description {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 25px;
+  color: var(--zizi-blue);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+  #progrid {
+    grid-column: 1;
+  }
+}
 
 /*support*/
 .support {
@@ -208,6 +267,7 @@ code {
   margin-right: 25px;
   width: 220px;
   border-radius: 5px;
+  text-align: center;
 }
 
 .support__donate:hover {
@@ -226,6 +286,7 @@ code {
   padding: 12px 20px;
   width: 220px;
   border-radius: 5px;
+  text-align: center;
 }
 
 .support__container {
@@ -242,7 +303,7 @@ code {
   }
 
   .hugetitle {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 700;
   }
 
@@ -287,7 +348,14 @@ code {
   }
 
   .project__img {
-    height: 220px;
+    height: 300px;
+    width: 100%;
+  }
+
+  .project__container {
+    max-width: 100%;
+    margin: 0px;
+    border-radius: 10px;
   }
 
   .project__group {

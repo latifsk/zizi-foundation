@@ -9,65 +9,69 @@ import { FiHeart, FiMail, FiMapPin, FiPhone } from "react-icons/fi";
 
 function Contact() {
   return (
-
     <div className="contact ">
       {/* <div className="contact__container"> */}
-        <Navibar />
-        <Subtitle subtitle="Contact us" />
-        <HugeTitle hugetitle="We are looking forward to hearing from you" />
+      <Navibar />
+      <Subtitle subtitle="Contact us" />
+      <HugeTitle hugetitle="We are looking forward to hearing from you" />
 
-        <div className="contact__contactItemGroup">
-          <ContactItem
-            icon={
-              <FiMapPin
-                color={"var(--zizi-blue)"}
-                size={25}
-                className="contactItem__icon"
-              />
-            }
-            title={"Address"}
-            description={"12 Pike St New York, NY 10002"}
-          />
+      <div className="contact__contactItemGroup">
+        <ContactItem
+          icon={
+            <FiMapPin
+              color={"var(--zizi-blue)"}
+              size={25}
+              className="contactItem__icon"
+            />
+          }
+          title={"Address"}
+          description={"12 Pike St New York, NY 10002"}
+        />
 
-          <ContactItem
-            icon={
-              <FiPhone
-                color={"var(--zizi-blue)"}
-                size={25}
-                className="contactItem__icon"
-              />
-            }
-            title={"Phone"}
-            description={"12 Pike St New York, NY 10002"}
-          />
+        <ContactItem
+          icon={
+            <FiPhone
+              color={"var(--zizi-blue)"}
+              size={25}
+              className="contactItem__icon"
+            />
+          }
+          title={"Phone"}
+          description={"12 Pike St New York, NY 10002"}
+        />
+      </div>
 
-          <ContactItem
-            icon={
-              <FiMail
-                color={"var(--zizi-blue)"}
-                size={25}
-                className="contactItem__icon"
-              />
-            }
-            title={"Email"}
-            description={`zizifoundation           gh@gmail.com`}
-          />
+      <br />
+      <br />
 
-          <ContactItem
-            icon={
-              <FiHeart
-                color={"var(--zizi-blue)"}
-                size={25}
-                className="contactItem__icon"
-              />
-            }
-            title={"Follow Us"}
-            description={
-              "Twitter: zizifoundation           Instagram: Zizifoundationgh            Facebook: Zizi foundation"
-            }
-          />
-        </div>
-        <Support />
+      <div className="contact__contactItemGroup">
+        <ContactItem
+          icon={
+            <FiMail
+              color={"var(--zizi-blue)"}
+              size={25}
+              className="contactItem__icon"
+            />
+          }
+          title={"Email"}
+          description={`zizifoundation           gh@gmail.com`}
+        />
+
+        <ContactItem
+          icon={
+            <FiHeart
+              color={"var(--zizi-blue)"}
+              size={25}
+              className="contactItem__icon"
+            />
+          }
+          title={"Follow Us"}
+          description={
+            "Twitter: zizifoundation           Instagram: Zizifoundationgh            Facebook: Zizi foundation"
+          }
+        />
+      </div>
+      <Support />
       {/* </div> */}
     </div>
   );

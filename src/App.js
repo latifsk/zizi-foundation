@@ -7,6 +7,7 @@ import Joinzizi from "./pages/joinZizi";
 import OurProjects from "./pages/ourProjects";
 import Contact from "./pages/contact";
 import Donate from "./pages/donate";
+import ProjectDetails from "./components/projectdetails";
 
 function App() {
   const router = createBrowserRouter([
@@ -38,6 +39,11 @@ function App() {
     {
       path: "/donate",
       element: <Donate />,
+    },
+
+    {
+      path: "/project_details",
+      element: <ProjectDetails />,
     },
   ]);
 
