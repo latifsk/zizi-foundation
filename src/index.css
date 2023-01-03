@@ -147,6 +147,7 @@ code {
   cursor: pointer;
   margin: 10px;
   border-radius: 20px;
+  height: 100%;
 }
 
 .project__container:hover {
@@ -238,11 +239,9 @@ code {
   max-width: 500px;
 }
 
-@media only screen and (max-width: 600px) {
-  #progrid {
-    grid-column: 1;
-  }
-}
+/* @media only screen and (max-width: 640px) {
+  
+} */
 
 /*support*/
 .support {
@@ -289,15 +288,15 @@ code {
   text-align: center;
 }
 
-.support__container {
-  /* position: relative;
-  bottom: 0;
-  width: 100%; */
-  /* justify-content: center; */
-}
-
 /*media screens*/
 @media only screen and (max-width: 750px) {
+
+
+  #progrid {
+    grid-column: 1;
+  }
+
+
   #navOptions {
     visibility: hidden;
   }
@@ -369,8 +368,7 @@ code {
   }
 }
 
-/* @media only screen and (max-width: 900px) {
-} */
+
 
 @tailwind base;
 @tailwind components;

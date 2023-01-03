@@ -9,7 +9,7 @@ const Project = ({ img, title, date, description, key }) => {
   // };
   return (
     <div
-      className="project"
+      className="project h-full"
       onClick={() => {
         navigate("/project_details", {
           state: {

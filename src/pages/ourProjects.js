@@ -24,14 +24,14 @@ function OurProjects() {
 
         <div
           id="progrid"
-          className="project__section  place-items-center grid sm:grid-cols-2 lg:grid-cols-4 p-10"
+          className="project__section  place-items-center grid gap-10 sm:grid-cols-2 lg:grid-cols-4 p-10"
         >
           <Project
             img={less_privileged}
             title="Reaching out to the less privileged"
             date={"November, 2020"}
             description={
-              "This project was embarked on during the birthday of the CEO. On this fateful occasion, the CEO in collaboration with Zizifoundation donated to an orphanage home(Echoing Hill Village) at Madina. This gesture was intended to share the birthday moment with the less privileged."
+              "On this fateful occasion, the CEO in collaboration with Zizifoundation donated to an orphanage home(Echoing Hill Village) at Madina."
             }
           />
 
@@ -40,7 +40,7 @@ function OurProjects() {
             title="Clothing the orphans"
             date={"June, 2021"}
             description={
-              "This event was slated by the Zizi foundation to reach out and donate clothes and footwears to the orphanage. These clothes were mainly funded by the foundation with some support from members of the foundation."
+              "This event was slated by the Zizi foundation to reach out and donate clothes and footwears to the orphanage."
             }
           />
 
@@ -49,7 +49,7 @@ function OurProjects() {
             title="RamaFest"
             date={"April, 2022"}
             description={
-              "This event was organized by the Zizifoundation during the holy month of Ramadan. Zizifoundation believes that giving/ sharing a little we have with the society would help to bring a positive change. On this favorable occasion, zizifoundation make a courtesy call on the Madina central mosques to share food stuffs such as Milk, Milo, bread, Sugar, and some fruits with the Muslim community."
+              "Zizifoundation believes that giving/ sharing a little we have with the society would help to bring a positive change."
             }
           />
 
@@ -58,7 +58,7 @@ function OurProjects() {
             title="Kids day out at the orphanage"
             date={"September, 2022"}
             description={
-              "Zizifoundation believes in putting smiles on the faces of the less privileged. Zizifoundation in collaboration with PiquantByhysher, took this enviable gesture to another level, occasioned by a picnic organized for the kids at the orphanage. The event also included a donation of educational materials and some clothes for the kids."
+              "Zizifoundation in collaboration with PiquantByhysher, took this enviable gesture to another level, occasioned by a picnic organized for the kids at the orphanage."
             }
           />
         </div>
@@ -67,6 +67,11 @@ function OurProjects() {
         <div className="support__hr">
           <hr />
         </div>
+
+{/* current and future projects */}
+<div id="progrid" className=" grid grid-cols-2 gap-5 sm:grid-cols-1 p-10">
+
+      <div>
         <Subtitle subtitle="How we are helping" />
         <HugeTitle hugetitle={"Current Projects"} />
         <div className="project__section">
@@ -82,10 +87,13 @@ function OurProjects() {
           </div>
         </div>
 
-        {/**next row */}
-        <div className="support__hr">
-          <hr />
-        </div>
+      </div>
+
+       
+
+
+      <div>
+
         <Subtitle subtitle="How we will help change the future" />
         <HugeTitle hugetitle={"Future Projects"} />
         <div className="project__section">
@@ -100,6 +108,10 @@ function OurProjects() {
             />
           </div>
         </div>
+
+      </div>
+
+</div>
 
         <Support />
       </div>
