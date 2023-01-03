@@ -2,6 +2,9 @@ import React from "react";
 
 
 import Mainpic from '../assets/bgkids.jpg'
+import helping_street_kids from "../assets/helping_street_kids.jpg";
+
+
 import NaviBar from "../components/naviBar";
 import FooterFull from "../components/footer";
 
@@ -21,7 +24,7 @@ function LandingPage(){
     return(
         <div>
             {/* first page */}
-            <div id="home_container" style={{backgroundImage: `url(${Mainpic})`, backgroundSize:"", height:"100vh", color:"white" }}>
+            <div id="home_container" style={{backgroundImage: `url(${helping_street_kids})`, backgroundSize:"contain", height:"100vh", color:"white" }}>
                 <div  className="h-full flex flex-col" style={{backgroundColor:"rgba(0,0,0,0.4)"}}>
 
                     {/* navbar */}
@@ -36,7 +39,7 @@ function LandingPage(){
                             <div className=" text-blue-500">smile. </div>
                         </div>
                         <div className="w-fit my-10">
-                            <a href="/projects" className=" w-fit px-10 py-2 rounded bg-blue-500 hover:bg-blue-400 ">
+                            <a href="/our_projects" className=" w-fit px-10 py-2 rounded bg-blue-500 hover:bg-blue-400 ">
                                 See our projects
                             </a>
                         </div>
