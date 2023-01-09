@@ -5,7 +5,7 @@ import Mainpic from '../assets/bgkids.jpg'
 import helping_street_kids from "../assets/helping_street_kids.jpg";
 
 
-import NaviBar from "../components/naviBar";
+import Navbar from "../components/navBarResponsive";
 import FooterFull from "../components/footer";
 
 
@@ -24,11 +24,14 @@ function LandingPage(){
     return(
         <div>
             {/* first page */}
-            <div id="home_container" style={{backgroundImage: `url(${helping_street_kids})`, backgroundSize:"contain", height:"100vh", color:"white" }}>
+            <div id="home_container" style={{backgroundImage: `url(${helping_street_kids})`, backgroundSize:"center", height:"100vh", color:"white" }}>
+            
+           
+           
                 <div  className="h-full flex flex-col" style={{backgroundColor:"rgba(0,0,0,0.4)"}}>
 
                     {/* navbar */}
-                    <NaviBar />
+                    <Navbar />
 
 
 
@@ -163,57 +166,6 @@ function LandingPage(){
             {/* 3rd part */}
             <div style={{height:"100vh"}}>
 
-        {
-                //   {/* page 3 part A */}
-                //   <div className="h-1/4 text-white text-left " >
-                //     <div className="flex h-full text-sm  flex-row justify-between p-20 lg:justify-around" style={{backgroundColor:"rgba(231,162,50,0.2)"}}>
-
-                //         {/* box of elements on each column for completed projects counter **remember to match project count in all categories */}
-                //         <div className="">
-                //             <div className="font-extrabold  text-5xl text-black">
-                //                 8
-                //             </div>
-                //             <div className="font-medium uppercase text-xs text-blue-500">
-                //                 Completed Projects
-                //             </div>
-                //             {/* <div>
-                //                 Completed Projects
-                //             </div> */}
-                            
-                //         </div>
-
-                //         {/* column for volunteer count */}
-                //         <div className="">
-                //             <div className="font-extrabold text-5xl text-black">
-                //                 126
-                //             </div>
-                //             <div className="font-medium uppercase text-xs text-blue-500">
-                //                 Volunteers
-                //             </div>
-                //             {/* <div>
-                //                 Completed Projects
-                //             </div> */}
-                            
-                //         </div>
-
-                //         {/* column for to-be-determined entity */}
-                //         <div className="">
-                //             <div className="font-extrabold text-5xl text-black">
-                //                 7
-                //             </div>
-                //             <div className="font-medium uppercase text-xs text-blue-500">
-                //                 Sponsors
-                //             </div>
-                //             {/* <div>
-                //                 Completed Projects
-                //             </div> */}
-                            
-                //         </div>
-
-                //     </div>
-                // </div>
-}
-
 
                 {/* page 3 part B */} 
                 <div style={{height:"100vh"}} className=" bg-slate-300 flex flex-col place-items-center justify-between p-15 pb-10">
@@ -228,7 +180,7 @@ function LandingPage(){
                         {projectHighlight.slice(0,4).map((item)=>{
 
                                 return (
-                                    <div className="flex flex-col">
+                                    <div key={item.title} className="flex flex-col">
                                         <img src={item.imgUrl} alt={"project higlights"} />
                                         <div>
                                             {item.title}

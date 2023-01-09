@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import NaviBar from '../components/naviBar';
+import Navbar from '../components/navBarResponsive';
 
 import emailjs from '@emailjs/browser';
 
@@ -23,7 +23,7 @@ function Joinzizi(){
     return(
         <div>
             {/* navigation bar */}
-            <NaviBar />
+            <Navbar />
             
             
             {/* main body */}

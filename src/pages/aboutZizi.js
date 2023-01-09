@@ -1,12 +1,14 @@
 import React from 'react'
 
-import NaviBar from '../components/naviBar';
+import Navbar from '../components/navBarResponsive';
 import FooterFull from "../components/footer.js"
 
 function Aboutzizi(){
     return(
         <div>
-            <NaviBar />
+            {/* navbar */}
+            <Navbar />
+
 
             {/* main body */}
             <div className="px-20 flex flex-col place-items-center">

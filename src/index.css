@@ -394,6 +394,26 @@ code {
   }
 }
 
+
+@media only screen and (max-width: 640px) {
+  .navbar{
+    background-color: white;
+  }
+  
+  .navbartext{
+    color: rgb(29, 128, 146);
+  }
+
+  .navbaricon{
+    color: rgb(29, 128, 146);
+
+  }
+
+  .navbaricon:hover{
+    border: 2px solid rgb(29, 128, 146);
+  }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

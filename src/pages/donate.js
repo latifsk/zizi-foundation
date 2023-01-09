@@ -1,16 +1,17 @@
 import React from "react";
 import Copyright from "../components/copyright";
-import DonateItem from "../components/donate_item";
 import HugeTitle from "../components/hugetitle";
 import Subtitle from "../components/subtitle";
-import Navibar from "../components/naviBar";
-import "../index.css";
+import Navbar from "../components/navBarResponsive";
+
+// import "../index.css";
 
 function Donate() {
   return (
     <div className="donate">
+        <Navbar />
+
       <div className="donate__container">
-        <Navibar />
         <Subtitle subtitle="Donate now" />
         <HugeTitle hugetitle={"Any help is appreciated"} />
 

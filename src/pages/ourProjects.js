@@ -17,13 +17,21 @@ import edufare4 from "../assets/project_images/dep1.jpg";
 import edufare5 from "../assets/project_images/dep1.jpg";
 
 import Support from "../components/support";
-import Navibar from "../components/naviBar";
+import Navbar from "../components/navBarResponsive";
+
 
 function OurProjects() {
   return (
     <div className="ourProjects">
+        
+        {/* navbar */}
+        <Navbar />
+
+
       <div className="outProjects__container">
-        <Navibar />
+        
+
+
         <Subtitle subtitle="How we help" />
         <HugeTitle hugetitle="Past events" />
 

@@ -4,14 +4,16 @@ import HugeTitle from "../components/hugetitle";
 import Subtitle from "../components/subtitle";
 import ContactItem from "../components/contact_item";
 import Support from "../components/support";
-import Navibar from "../components/naviBar";
+import Navbar from "../components/navBarResponsive";
+
 import { FiHeart, FiMail, FiMapPin, FiPhone } from "react-icons/fi";
 
 function Contact() {
   return (
     <div className="contact ">
       {/* <div className="contact__container"> */}
-      <Navibar />
+      <Navbar />
+
       <Subtitle subtitle="Contact us" />
       <HugeTitle hugetitle="We are looking forward to hearing from you" />
 
