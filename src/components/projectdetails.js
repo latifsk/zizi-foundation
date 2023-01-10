@@ -73,15 +73,6 @@ function ProjectDetails() {
             className="projectDetails__spamImage"
           />
         </div>
-
-        <div>
-          <img
-            src={location.state.img5}
-            style={{ display: "block" }}
-            alt=""
-            className="projectDetails__spamImage"
-          />
-        </div>
       </div>
 
       <Support />

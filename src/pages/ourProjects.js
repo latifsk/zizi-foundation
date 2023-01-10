@@ -2,7 +2,6 @@ import React from "react";
 import "../index.css";
 import Subtitle from "../components/subtitle";
 import HugeTitle from "../components/hugetitle";
-
 import Project from "../components/project";
 import less_privileged from "../assets/less_privileged.jpg";
 import group from "../assets/group_zizi.jpg";
@@ -11,10 +10,29 @@ import kids from "../assets/day_out.jpg";
 import helping_street_kids from "../assets/helping_street_kids.jpg";
 import edufare from "../assets/edufare.jpg";
 import edufare1 from "../assets/project_images/dep1.jpg";
+import less1 from "../assets/project_images/less1.jpg";
+import less2 from "../assets/project_images/less2.JPG";
+import less3 from "../assets/project_images/less3.jpg";
+import less4 from "../assets/project_images/less4.jpg";
+import clothe1 from "../assets/project_images/clothe1.jpg";
+import clothe2 from "../assets/project_images/clothe2.jpg";
+import clothe3 from "../assets/project_images/clothe3.jpg";
+import clothe4 from "../assets/project_images/clothe4.jpg";
 import edufare2 from "../assets/project_images/dep2.jpg";
 import edufare3 from "../assets/project_images/dep3.jpg";
 import edufare4 from "../assets/project_images/dep1.jpg";
-import edufare5 from "../assets/project_images/dep1.jpg";
+import ramafest1 from "../assets/project_images/ramafest1.jpg";
+import ramafest2 from "../assets/project_images/ramafest2.jpg";
+import ramafest3 from "../assets/project_images/ramafest3.jpg";
+import ramafest4 from "../assets/project_images/ramafest4.jpg";
+import kidsdayout1 from "../assets/project_images/kidsdayout1.jpg";
+import kidsdayout2 from "../assets/project_images/kidsdayout2.jpg";
+import kidsdayout3 from "../assets/project_images/kidsdayout3.jpg";
+import kidsdayout4 from "../assets/project_images/kidsdayout4.jpg";
+import feed1 from "../assets/project_images/feed1.jpg";
+import feed2 from "../assets/project_images/feed2.jpg";
+import feed3 from "../assets/project_images/feed3.jpg";
+import feed4 from "../assets/project_images/feed4.jpg";
 
 import Support from "../components/support";
 import Navibar from "../components/naviBar";
@@ -39,11 +57,10 @@ function OurProjects() {
               "On this fateful occasion, the CEO in collaboration with Zizifoundation donated to an orphanage home(Echoing Hill Village) at Madina."
             }
             thePhotos={less_privileged}
-            img1={less_privileged}
-            img2={less_privileged}
-            img3={less_privileged}
-            img4={less_privileged}
-            img5={less_privileged}
+            img1={less1}
+            img2={less2}
+            img3={less3}
+            img4={less4}
           />
 
           <Project
@@ -53,11 +70,10 @@ function OurProjects() {
             description={
               "This event was slated by the Zizi foundation to reach out and donate clothes and footwears to the orphanage."
             }
-            img1={less_privileged}
-            img2={less_privileged}
-            img3={less_privileged}
-            img4={less_privileged}
-            img5={less_privileged}
+            img1={clothe1}
+            img2={clothe2}
+            img4={clothe4}
+            img3={clothe3}
           />
           <Project
             img={gifts}
@@ -66,11 +82,10 @@ function OurProjects() {
             description={
               "Zizifoundation believes that giving/ sharing a little we have with the society would help to bring a positive change."
             }
-            img1={less_privileged}
-            img2={less_privileged}
-            img3={less_privileged}
-            img4={less_privileged}
-            img5={less_privileged}
+            img2={ramafest2}
+            img3={ramafest3}
+            img4={ramafest4}
+            img1={ramafest1}
           />
 
           <Project
@@ -80,11 +95,10 @@ function OurProjects() {
             description={
               "Zizifoundation in collaboration with PiquantByhysher, took this enviable gesture to another level, occasioned by a picnic organized for the kids at the orphanage."
             }
-            img1={less_privileged}
-            img2={less_privileged}
-            img3={less_privileged}
-            img4={less_privileged}
-            img5={less_privileged}
+            img1={kidsdayout1}
+            img4={kidsdayout4}
+            img3={kidsdayout3}
+            img2={kidsdayout2}
           />
         </div>
 
@@ -109,11 +123,10 @@ function OurProjects() {
                   description={
                     "This was a food fare organized to commemorate the birthday of the founder and CEO of zizifoundation. The event was aimed at reaching out to the street children to share various kinds of food and drinks with them on the street of Madina, a suburb of Accra. The foundation also took the opportunity to interact and inspired young folks, giving them hopes and some encouragements."
                   }
-                  img1={less_privileged}
-                  img2={less_privileged}
-                  img3={less_privileged}
-                  img4={less_privileged}
-                  img5={less_privileged}
+                  img1={feed1}
+                  img2={feed2}
+                  img3={feed3}
+                  img4={feed4}
                 />
               </div>
             </div>
@@ -135,7 +148,6 @@ function OurProjects() {
                   img2={edufare2}
                   img3={edufare3}
                   img4={edufare4}
-                  img5={edufare5}
                 />
               </div>
             </div>
