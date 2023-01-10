@@ -83,8 +83,9 @@ code {
 
 /*Donate*/
 .donate__body {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
+  padding: 50px;
   margin-bottom: 50px;
 }
 
@@ -98,19 +99,21 @@ code {
 }
 
 .donate__left {
-  max-width: 40%;
+  /* max-width: 40%; */
+  
 }
 
 .donate__NameOfBank,
 .donate__accountNumber {
   color: var(--zizi-blue);
   font-size: 25px;
+  
 }
 
 .donate__bankAccount,
 .donate__bankName {
-  font-weight: 700;
-  margin-top: 30px;
+  /* font-weight: 700; */
+  /* margin-top: 30px; */
   font-size: 20px;
 }
 
@@ -137,8 +140,8 @@ code {
 }
 
 .donate__right {
-  display: flex;
-  margin-left: 40px;
+  /* display: flex; */
+  /* margin-left: 40px; */
 }
 
 .ourProjects__currentAndFuture {
