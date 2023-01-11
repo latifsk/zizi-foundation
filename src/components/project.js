@@ -8,7 +8,6 @@ const Project = ({
   img2,
   img3,
   img4,
-  img5,
   title,
   date,
   description,
@@ -27,7 +26,6 @@ const Project = ({
             img2: img2,
             img3: img3,
             img4: img4,
-            img5: img5,
             title: title,
             date: date,
             description: description,
@@ -62,12 +60,6 @@ const Project = ({
         />
         <img
           src={img4}
-          alt=""
-          className="project__img"
-          style={{ display: "none" }}
-        />
-        <img
-          src={img5}
           alt=""
           className="project__img"
           style={{ display: "none" }}
