@@ -20,18 +20,22 @@ function Aboutzizi(){
                     This is our story
                 </div>
                 
-                <div className='text-left'>
-                    Story text kfjksfisfifif wjnfnsfihifnw wiofhiowhfioh oiwhfiowhfih difhj iwhrpiwhniufhsiohfiuhfhifhiw iowfhiohfihifhiowfhoifhnwindinfifnwi ifjiwjf iwiwj wdijiwjropj
+                <div style={{letterSpacing:1,wordSpacing:2}} className='text-left '>
+                    Zizifoundation is a philanthropic grassroot non-profit organization based in Accra-Ghana. Through philanthropy and solidarity, we partner other local organizations to implement grassroot social interventions that seek to support the less privileged in society.         
+                </div>
+                <div style={{letterSpacing:1,wordSpacing:2}} className='text-left mt-5 '>
+                    In order to fulfill this mandate, Zizifoundation creates and implements sustainable programs that empower individuals and local communities. 
+                    Through charity, our grassroot interventions offer platforms that address leadership and empowerment, technology, climate change and food security.                 
                 </div>
 
 
-                <div className="grid grid-cols-2 grid-rows-2 gap-5 p-2">
+                <div className="grid grid-cols-2 grid-rows-2 place-content-center place-items-center h-fit w-fit gap-5 p-2 max-[640px]:grid-cols-1 max-[640px]:grid-rows-3 mt-10 ">
                     
-                    <img className='' src={require('../assets/bgkids.jpg')} alt="Zizi Foundation logo"/>
+                    <img className=' h-64' src={require('../assets/bgkids.jpg')} alt="Zizi Foundation logo"/>
                     
-                    <img className='object-cover row-span-2 h-full' src={require('../assets/bgkids.jpg')} alt="Zizi Foundation logo"/>                        
+                    <img className='object-contain row-span-2 max-[640px]:row-span-1  h-72' src={require('../assets/bgkids.jpg')} alt="Zizi Foundation logo"/>                        
             
-                    <img className='object-contain h-fit' src={require('../assets/bgkids.jpg')} alt="Zizi Foundation logo"/>                    
+                    <img className='object-contain h-64' src={require('../assets/bgkids.jpg')} alt="Zizi Foundation logo"/>                    
         
                 </div>
 
