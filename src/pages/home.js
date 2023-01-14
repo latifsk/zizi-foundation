@@ -24,7 +24,7 @@ function LandingPage(){
     return(
         <div>
             {/* first page */}
-            <div id="home_container" style={{backgroundImage: `url(${helping_street_kids})`, backgroundSize:"center", height:"100vh", color:"white" }}>
+            <div id="home_container" style={{backgroundImage: `url(${helping_street_kids})`, backgroundSize:"cover", height:"100vh", color:"white" }}>
             
            
            
@@ -143,7 +143,7 @@ function LandingPage(){
                 </div>
 
                 {/* page 2 part B */}
-                <div className="h-1/3 text-white " style={{backgroundImage: `url(${Mainpic})`, backgroundSize:"cover"}} >
+                <div className="h-1/3 text-white " style={{backgroundImage: `url(${Mainpic})`, backgroundPosition:"10% 0%", backgroundSize:"cover"}} >
                     <div className="flex h-full flex-col justify-center p-20" style={{backgroundColor:"rgba(0,0,0,0.6)"}}>
 
                         <div className="text-3xl font-bold">

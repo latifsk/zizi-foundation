@@ -25,9 +25,8 @@ function Donate() {
               <div className="donate__leftDescription">
                 There are various ways you can donate to help.
                 The first option is to donate to the bank account
-                number below, the bank is Access Bank and the branch of the bank
-                is Legon.
-                <br /> The second option is through mobile money.
+                number below.
+                The second option is through mobile money.
               </div>
 
             </div>
@@ -41,11 +40,11 @@ function Donate() {
 
           {/* bank section */}
 
-          <div className="flex">
-            <img className="donate__NameOfBank h-52 w-fit object-contain p-5" alt="bank illustration" src={require("../assets/bank.jpg")} />
+          <div className="">
+            <img className="donate__NameOfBank h-52 w-fit max-[640px]:h-64 object-contain p-5" alt="bank illustration" src={require("../assets/bank.jpg")} />
 
             <div>
-                        <div style={{color: "rgb(231, 162, 50)"}} className=" text-2xl font-bold ">Bank transfer</div>
+                        {/* <div style={{color: "rgb(231, 162, 50)"}} className=" text-2xl font-bold ">Bank transfer</div> */}
 
                         <div className="donate__bankAccount mt-10">Bank account</div>
                         <div className="donate__accountNumber">1043000002798</div>
@@ -60,13 +59,13 @@ function Donate() {
           </div>
 
           {/* momo */}
-          <div className="h-full max-[640px]:py-10  flex">
+          <div className="h-full max-[640px]:py-10 ">
 
           <img className="donate__NameOfBank h-52 w-44 p-5 object-contain" alt="bank illustration" src={require("../assets/momo.png")} />
 
 
             <div className="donate__bankName h-full">
-              <div style={{color: "rgb(231, 162, 50)"}} className=" text-2xl font-bold ">Mobile Money</div>
+              {/* <div style={{color: "rgb(231, 162, 50)"}} className=" text-2xl font-bold ">Mobile Money</div> */}
               <div className="donate__bankName mt-10">Momo Number</div>
               <div className="donate__NameOfBank ">024 713 5558</div>
 
@@ -84,7 +83,7 @@ function Donate() {
   
 
         <div className="flex justify-center p-5">
-          Do you have other things you would like to donate? <a href="/contact" className="text-blue-600 pl-2 hover:cursor-pointer">Contact us</a>
+          Do you have other things you would like to donate? <a href="/contact" className="text-blue-600 pl-2 hover:cursor-pointer animate-bounce">Contact us</a>
         </div>
 
         <Copyright />

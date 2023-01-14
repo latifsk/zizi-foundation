@@ -14,7 +14,7 @@ const Navbar = () => {
 
                 <div className="flex items-center">    
                     <img src={require("../assets/Zizi_logo.png")} alt="Logo" className="h-24 w-24" /> 
-                    <span className="font-semibold text-xl tracking-tight text-blue-500 ml-2 navbartext"> Zizi Foundation </span> 
+                    <span className="font-semibold text-xl tracking-tight  ml-2 navbartext" style={{color:"rgb(231, 162, 50)"}}> Zizi Foundation </span> 
                 </div> 
                     
                 <div className="block lg:hidden md:hidden max-[700px]:visible sm:hidden"> 
@@ -28,12 +28,12 @@ const Navbar = () => {
                 
                 <div className=" flex  lg:flex lg:items-center lg:w-auto md::flex md:items-center md::w-auto max-[640px]:hidden"> 
                         <div className="text-sm lg:flex-grow"> 
-                            <a href="/" className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-white-200 hover:text-blue mr-4"> Home </a>
-                            <a href="/about" className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-white-200 hover:text-blue mr-4"> About us </a> 
-                            <a href="/our_projects" className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-white-200 hover:text-blue mr-4"> Our Projects </a> 
-                            <a href="/join_us" className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-white-200 hover:text-blue mr-4"> Join us </a> 
-                            <a href="/contact" className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-white-200 hover:text-blue mr-4"> Contact </a> 
-                            <a href="/donate" className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-white-200 hover:text-blue"> Donate </a> 
+                            <a href="/" className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-white-200 hover:text-blue-600 mr-4"> Home </a>
+                            <a href="/about" className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-white-200 hover:text-blue-600 mr-4"> About us </a> 
+                            <a href="/our_projects" className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-white-200 hover:text-blue-600 mr-4"> Our Projects </a> 
+                            <a href="/join_us" className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-white-200 hover:text-blue-600 mr-4"> Join us </a> 
+                            <a href="/contact" className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-white-200 hover:text-blue-600 mr-4"> Contact </a> 
+                            <a href="/donate" className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-white-200 hover:text-blue-600"> Donate </a> 
                             
                         </div>
                 </div> 
