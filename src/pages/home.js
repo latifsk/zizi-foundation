@@ -24,7 +24,7 @@ function LandingPage(){
     return(
         <div>
             {/* first page */}
-            <div id="home_container" style={{backgroundImage: `url(${helping_street_kids})`, backgroundSize:"cover", height:"100vh", color:"white" }}>
+            <div id="home_container mb-10" style={{backgroundImage: `url(${helping_street_kids})`, backgroundSize:"cover", height:"100vh", color:"white" }}>
             
            
            
@@ -38,7 +38,7 @@ function LandingPage(){
                     {/* body of page */}
                     <div className="h-full px-20 flex flex-col place-content-center">
                         <div className="text-8xl">
-                            <div className="">Help maintain the </div>
+                            <div className="sm:text-3xl">Help maintain the </div>
                             <div className=" text-blue-500">smile. </div>
                         </div>
                         <div className="w-fit my-10">
@@ -55,7 +55,7 @@ function LandingPage(){
 
 {/* ================================================================================================================================== */}
             {/* 2nd part */}
-            <div style={{height:"100vh"}}>
+            <div >
                 {/* page 2 part A  */} 
                 <div className="flex flex-col place-items-center h-2/3 w-full">
                     <div className="text-blue-500 uppercase font-semibold px-5 pt-5">
