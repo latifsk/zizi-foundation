@@ -4,7 +4,7 @@ import React from 'react'
 export default function FooterFull(){
     return(
         <>
-            <footer className="w-full bottom-0">
+            <footer className="w-full">
                 <section className=" flex place-content-center" >
                     <div className=" py-10 border-t border-gray-300 flex flex-col place-items-center" style={{width:"70%"}}>
                         <div className="text-blue-500 uppercase font-semibold">

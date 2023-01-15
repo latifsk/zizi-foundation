@@ -1,14 +1,31 @@
 import React from "react";
 
-
+// data files
 import Mainpic from '../assets/bgkids.jpg'
 import helping_street_kids from "../assets/helping_street_kids.jpg";
+import less1 from "../assets/project_images/less1.jpg";
+import less2 from "../assets/project_images/less2.JPG";
+import less3 from "../assets/project_images/less3.jpg";
+import less4 from "../assets/project_images/less4.jpg";
+import clothe1 from "../assets/project_images/clothe1.jpg";
+import clothe2 from "../assets/project_images/clothe2.jpg";
+import clothe3 from "../assets/project_images/clothe3.jpg";
+import clothe4 from "../assets/project_images/clothe4.jpg";
+import ramafest1 from "../assets/project_images/ramafest1.jpg";
+import ramafest2 from "../assets/project_images/ramafest2.jpg";
+import ramafest3 from "../assets/project_images/ramafest3.jpg";
+import ramafest4 from "../assets/project_images/ramafest4.jpg";
+import less_privileged from "../assets/less_privileged.jpg";
+import group from "../assets/group_zizi.jpg";
+import gifts from "../assets/gift.jpg";
 
-
-import NaviBar from "../components/naviBar";
+// components
+import Navbar from "../components/navBarResponsive";
 import FooterFull from "../components/footer";
+import Project from "../components/project";
 
 
+// icons
 import {BiDonateHeart as Donate} from "react-icons/bi"
 import {GiMicrochip as Technology} from "react-icons/gi"
 import {GiTrophiesShelf as Leadership} from "react-icons/gi"
@@ -24,18 +41,21 @@ function LandingPage(){
     return(
         <div>
             {/* first page */}
-            <div id="home_container" style={{backgroundImage: `url(${helping_street_kids})`, backgroundSize:"contain", height:"100vh", color:"white" }}>
+            <div id="home_container mb-10" style={{backgroundImage: `url(${helping_street_kids})`, backgroundSize:"cover", height:"100vh", color:"white" }}>
+            
+           
+           
                 <div  className="h-full flex flex-col" style={{backgroundColor:"rgba(0,0,0,0.4)"}}>
 
                     {/* navbar */}
-                    <NaviBar />
+                    <Navbar />
 
 
 
                     {/* body of page */}
                     <div className="h-full px-20 flex flex-col place-content-center">
                         <div className="text-8xl">
-                            <div className="">Help maintain the </div>
+                            <div className="sm:text-5xl">Help maintain the </div>
                             <div className=" text-blue-500">smile. </div>
                         </div>
                         <div className="w-fit my-10">
@@ -52,9 +72,9 @@ function LandingPage(){
 
 {/* ================================================================================================================================== */}
             {/* 2nd part */}
-            <div style={{height:"100vh"}}>
+            <div >
                 {/* page 2 part A  */} 
-                <div className="flex flex-col place-items-center h-2/3 w-full">
+                <div className="flex flex-col place-items-center p-10 w-full">
                     <div className="text-blue-500 uppercase font-semibold px-5 pt-5">
                         What we do 
                     </div>
@@ -62,7 +82,7 @@ function LandingPage(){
                         Main areas of our focus
                     </div>
 
-                    <div className="grid grid-cols-2 gap-10 p-5 w-auto lg:w-1/2">
+                    <div className="grid grid-cols-2 gap-10 p-5 w-auto sm:grid-cols-1 max-[640px]:grid-cols-1 ">
                         <div className="flex flex-row">
                             <div className="px-5">
                                 <Donate size={50} color="rgba(231,162,50,1)"/>
@@ -140,7 +160,7 @@ function LandingPage(){
                 </div>
 
                 {/* page 2 part B */}
-                <div className="h-1/3 text-white " style={{backgroundImage: `url(${Mainpic})`, backgroundSize:"cover"}} >
+                <div className=" text-white " style={{backgroundImage: `url(${Mainpic})`, backgroundPosition:"10% 0%", backgroundSize:"cover"}} >
                     <div className="flex h-full flex-col justify-center p-20" style={{backgroundColor:"rgba(0,0,0,0.6)"}}>
 
                         <div className="text-3xl font-bold">
@@ -163,60 +183,9 @@ function LandingPage(){
             {/* 3rd part */}
             <div style={{height:"100vh"}}>
 
-        {
-                //   {/* page 3 part A */}
-                //   <div className="h-1/4 text-white text-left " >
-                //     <div className="flex h-full text-sm  flex-row justify-between p-20 lg:justify-around" style={{backgroundColor:"rgba(231,162,50,0.2)"}}>
-
-                //         {/* box of elements on each column for completed projects counter **remember to match project count in all categories */}
-                //         <div className="">
-                //             <div className="font-extrabold  text-5xl text-black">
-                //                 8
-                //             </div>
-                //             <div className="font-medium uppercase text-xs text-blue-500">
-                //                 Completed Projects
-                //             </div>
-                //             {/* <div>
-                //                 Completed Projects
-                //             </div> */}
-                            
-                //         </div>
-
-                //         {/* column for volunteer count */}
-                //         <div className="">
-                //             <div className="font-extrabold text-5xl text-black">
-                //                 126
-                //             </div>
-                //             <div className="font-medium uppercase text-xs text-blue-500">
-                //                 Volunteers
-                //             </div>
-                //             {/* <div>
-                //                 Completed Projects
-                //             </div> */}
-                            
-                //         </div>
-
-                //         {/* column for to-be-determined entity */}
-                //         <div className="">
-                //             <div className="font-extrabold text-5xl text-black">
-                //                 7
-                //             </div>
-                //             <div className="font-medium uppercase text-xs text-blue-500">
-                //                 Sponsors
-                //             </div>
-                //             {/* <div>
-                //                 Completed Projects
-                //             </div> */}
-                            
-                //         </div>
-
-                //     </div>
-                // </div>
-}
-
 
                 {/* page 3 part B */} 
-                <div style={{height:"100vh"}} className=" bg-slate-300 flex flex-col place-items-center justify-between p-15 pb-10">
+                <div className=" flex flex-col place-items-center justify-between p-15 pb-10">
                     <div className="text-blue-500 uppercase font-semibold px-5 pt-5">
                         How we help 
                     </div>
@@ -224,11 +193,11 @@ function LandingPage(){
                        Current projects
                     </div>
 
-                    <div className="grid grid-cols-3 gap-10 w-auto px-20 lg:w-1/2">
-                        {projectHighlight.slice(0,4).map((item)=>{
+                    <div className="grid grid-cols-3 gap-10 w-auto p-20 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 max-[640px]:grid-cols-1 ">
+                        {/* {projectHighlight.slice(0,4).map((item)=>{
 
                                 return (
-                                    <div className="flex flex-col">
+                                    <div key={item.title} className="flex flex-col">
                                         <img src={item.imgUrl} alt={"project higlights"} />
                                         <div>
                                             {item.title}
@@ -244,7 +213,46 @@ function LandingPage(){
                                 )
                             
 
-                        })}
+                        })} */}
+
+                        <Project
+                            img={less_privileged}
+                            title="Reaching out to the less privileged"
+                            date={"November, 2020"}
+                            description={
+                            "On this fateful occasion, the CEO in collaboration with Zizifoundation donated to an orphanage home(Echoing Hill Village) at Madina."
+                            }
+                            thePhotos={less_privileged}
+                            img1={less1}
+                            img2={less2}
+                            img3={less3}
+                            img4={less4}
+                        />
+
+                        <Project
+                            img={group}
+                            title="Clothing the orphans"
+                            date={"June, 2021"}
+                            description={
+                                "This event was slated by the Zizi foundation to reach out and donate clothes and footwears to the orphanage."
+                            }
+                            img1={clothe1}
+                            img2={clothe2}
+                            img4={clothe4}
+                            img3={clothe3}
+                            />
+                            <Project
+                            img={gifts}
+                            title="RamaFest"
+                            date={"April, 2022"}
+                            description={
+                                "Zizifoundation believes that giving/ sharing a little we have with the society would help to bring a positive change."
+                            }
+                            img2={ramafest2}
+                            img3={ramafest3}
+                            img4={ramafest4}
+                            img1={ramafest1}
+                        />
 
                         
 

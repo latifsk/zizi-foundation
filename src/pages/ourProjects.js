@@ -35,13 +35,21 @@ import feed3 from "../assets/project_images/feed3.jpg";
 import feed4 from "../assets/project_images/feed4.jpg";
 
 import Support from "../components/support";
-import Navibar from "../components/naviBar";
+import Navbar from "../components/navBarResponsive";
+
 
 function OurProjects() {
   return (
     <div className="ourProjects">
+        
+        {/* navbar */}
+        <Navbar />
+
+
       <div className="outProjects__container">
-        <Navibar />
+        
+
+
         <Subtitle subtitle="How we help" />
         <HugeTitle hugetitle="Past events" />
 

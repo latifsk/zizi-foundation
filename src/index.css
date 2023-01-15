@@ -83,8 +83,9 @@ code {
 
 /*Donate*/
 .donate__body {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
+  padding: 50px;
   margin-bottom: 50px;
 }
 
@@ -97,20 +98,17 @@ code {
   font-weight: 100;
 }
 
-.donate__left {
-  max-width: 40%;
-}
-
 .donate__NameOfBank,
 .donate__accountNumber {
   color: var(--zizi-blue);
   font-size: 25px;
+  
 }
 
 .donate__bankAccount,
 .donate__bankName {
-  font-weight: 700;
-  margin-top: 30px;
+  /* font-weight: 700; */
+  /* margin-top: 30px; */
   font-size: 20px;
 }
 
@@ -134,11 +132,6 @@ code {
 .donateItem__container {
   max-width: 200px;
   margin: 25px;
-}
-
-.donate__right {
-  display: flex;
-  margin-left: 40px;
 }
 
 .ourProjects__currentAndFuture {
@@ -393,6 +386,27 @@ code {
     padding: 10px;
   }
 }
+
+
+@media only screen and (max-width: 640px) {
+  .navbar{
+    background-color: white;
+  }
+  
+  .navbartext{
+    color: rgb(29, 128, 146);
+  }
+
+  .navbaricon{
+    color: rgb(29, 128, 146);
+
+  }
+
+  .navbaricon:hover{
+    border: 2px solid rgb(29, 128, 146);
+  }
+}
+
 
 @tailwind base;
 @tailwind components;
