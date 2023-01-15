@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import Navbar from '../components/navBarResponsive';
 
 import emailjs from '@emailjs/browser';
@@ -11,20 +11,33 @@ function Joinzizi(){
     const sendEmail = (e) => {
         e.preventDefault()
 
-        emailjs.sendForm('service_3izu3vt', 'template_oxsvq9m', form.current, '9EjkNKVteSw_tWC7b')
+        emailjs.sendForm('service_dxcm8fh', 'template_oxsvq9m', form.current, '9EjkNKVteSw_tWC7b')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
             console.log(error.text);
         });
+
+        setUser("");
+        setNum("")
+        setMail("");
+        setMessage("");
+        
     }
+
+
+
+    const [username, setUser] = useState("");
+    const [usermail, setMail] = useState("");
+    const [usernum, setNum] = useState();
+    const [usermessage, setMessage] = useState("");
 
 
     return(
         <div>
             {/* navigation bar */}
             <Navbar />
-            
+            S
             
             {/* main body */}
             <div className="px-20 flex flex-col place-items-center">
@@ -58,25 +71,25 @@ function Joinzizi(){
                             <form  ref={form} onSubmit={sendEmail} className='w-full mt-10'>
                                 <div className='flex flex-col mt-5'>
                                     <label>Name</label>
-                                    <input type={'text'} placeholder="Your full name" name="user_name" className='border p-1' />
+                                    <input type={'text'} placeholder="Your full name" name="user_name" value={username} onChange={(ev)=>{setUser(ev.target.value) }} className='border p-1' />
                                 </div>
 
                                 <div className='flex flex-col mt-5'>
                                     <label>Email</label>
-                                    <input type={'email'} placeholder="example: ziziuser@gmail.com" name="user_email" className='border p-1' />
+                                    <input type={'email'} placeholder="example: ziziuser@gmail.com" name="user_email" className= 'border p-1'  value={usermail} onChange={(ev)=>{setUser(ev.target.value) }} />
                                 </div>
 
                                 <div className='flex flex-col mt-5'>
                                     <label>Phone number</label>
-                                    <input type={'tel'} placeholder="example: 0542345678, +233272345678 etc." name="user_tel" className='border p-1' />
+                                    <input type={'tel'} placeholder="example: 0542345678, +233272345678 etc." name="user_tel" value={usernum} onChange={(ev)=>{setUser(ev.target.value) }} className='border p-1' />
                                 </div>
 
                                 <div className='flex flex-col mt-5'>
                                     <label>Message</label>
-                                    <textarea name="user_message" placeholder='Kindly, briefly introduce yourself...' maxLength={1500} type={'text'} className='border p-1 max-h-96' />
+                                    <textarea name="user_message" placeholder='Kindly, briefly introduce yourself...' maxLength={1500} type={'text'} className='border p-1 max-h-96' value={usermessage} onChange={(ev)=>{setUser(ev.target.value) }} />
                                 </div>
 
-                                <input type={'submit'} className='border mt-5 py-3 px-10 rounded text-white animate-pulse font-medium bg-blue-600 hover:bg-blue-500 cursor-pointer' value={"Become a hero"}  />
+                                <input type={'submit'} className='border mt-5 py-3 px-10 rounded text-white animate-pulse font-medium bg-blue-400 hover:animate-none hover:bg-blue-700 cursor-pointer' value={"Become a hero"}  />
                                 
                             </form>
 

@@ -98,11 +98,6 @@ code {
   font-weight: 100;
 }
 
-.donate__left {
-  /* max-width: 40%; */
-  
-}
-
 .donate__NameOfBank,
 .donate__accountNumber {
   color: var(--zizi-blue);
@@ -137,11 +132,6 @@ code {
 .donateItem__container {
   max-width: 200px;
   margin: 25px;
-}
-
-.donate__right {
-  /* display: flex; */
-  /* margin-left: 40px; */
 }
 
 .ourProjects__currentAndFuture {
