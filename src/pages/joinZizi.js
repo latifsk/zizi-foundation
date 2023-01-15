@@ -48,7 +48,7 @@ function Joinzizi(){
                     </div>
 
 
-<div className='grid grid-cols-2 gap-10 max-[640px]:grid-cols-1 w-full'>
+<div className='my-10 grid grid-cols-2 gap-10 max-[640px]:grid-cols-1 w-full'>
 
                     <img className='h-full mt-10 object-cover' src={require('../assets/join.jpg')} alt="Zizi Foundation logo"/>
                     
@@ -78,12 +78,15 @@ function Joinzizi(){
 
                                 <input type={'submit'} className='border mt-5 py-3 px-10 rounded text-white animate-pulse font-medium bg-blue-600 hover:bg-blue-500 cursor-pointer' value={"Become a hero"}  />
                                 
-                            </form>s
+                            </form>
 
                     </div>
 
 
+
+
 </div>
+                   
 
                 </div>
                 

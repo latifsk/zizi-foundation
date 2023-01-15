@@ -6,7 +6,7 @@ import Subtitle from "./subtitle";
 
 function Support() {
   return (
-    <div className="support mt-20 md:bottom-0 md:absolute md:w-full">
+    <div className="support mt-20 md:w-full">
       <div className="support__container">
         <div className="support__hr">
           <hr />
