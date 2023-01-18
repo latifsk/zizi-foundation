@@ -17,7 +17,7 @@ function App() {
     {
       path: "/",
       element: <LandingPage />,
-      errorElement: <LandingPage />
+      errorElement: <Aboutzizi />
     },
 
     {
