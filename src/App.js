@@ -20,6 +20,11 @@ function App() {
     },
 
     {
+      path: "https://latifsk.github.io/zizifoundation",
+      element: <LandingPage/>,
+    },
+
+    {
       path: "/about",
       element: <Aboutzizi />,
     },
