@@ -17,12 +17,7 @@ function App() {
     {
       path: "/",
       element: <LandingPage />,
-      errorElement: <Aboutzizi />
-    },
-
-    {
-      path: "https://latifsk.github.io/zizifoundation",
-      element: <Aboutzizi/>,
+      // errorElement: <Aboutzizi />
     },
 
     {
