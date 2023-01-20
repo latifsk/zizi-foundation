@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { BrowserRouter, createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import LandingPage from "./pages/home";
 import Aboutzizi from "./pages/aboutZizi";
@@ -53,9 +53,11 @@ function App() {
 
   ReactDOM.createRoot(document.getElementById("root")).render(
 
-    <React.StrictMode>
+    // <React.StrictMode>
+    <BrowserRouter basename="/zizifoundation">
       <RouterProvider router={router}  />
-    </React.StrictMode>
+    </BrowserRouter>
+    // </React.StrictMode>
   );
 }
 
