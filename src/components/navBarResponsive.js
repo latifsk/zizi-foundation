@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 
@@ -43,6 +44,7 @@ const Navbar = () => {
         {
             showMenu && (
                 <div className="pb-5 text-sm grid grid-rows-6 place-items-center lg:flex-grow min-[700px]: lg:hidden sm:hidden md:hidden bg-white z-30 absolute  w-full "> 
+                                <Link to={"/"} >Hometrial</Link>/>
                                 <a href="/" className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-black hover:text-blue-500 mr-4">Home</a>
                                 <a href="/about" className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-black hover:text-blue-500 mr-4"> About us </a> 
                                 <a href="/our_projects" className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-black hover:text-blue-500 mr-4"> Our Projects </a> 
