@@ -1,7 +1,7 @@
 {
   "name": "zizifoundation",
   "homepage": "https://latifsk.github.io/zizifoundation",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",

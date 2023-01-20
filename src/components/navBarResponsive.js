@@ -31,6 +31,8 @@ const Navbar = () => {
                         <div className="text-sm lg:flex-grow"> 
                         <Link to={"/"} >Hometrial</Link>
                         <Link to={"/zizifoundation/about"} >Abouttr</Link>
+                        <Link to={"/about"} >About2</Link>
+
 
 
                             <a href="/" className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-white-200 hover:text-blue-600 mr-4"> Home </a>
