@@ -2,7 +2,7 @@
   "name": "zizifoundation",
   "homepage": "https://latifsk.github.io/zizifoundation",
   "version": "0.1.4",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@testing-library/jest-dom": "^5.16.5",
