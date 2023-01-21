@@ -29,9 +29,8 @@ function App() {
     // </BrowserRouter>
 
 
-    <HashRouter basename="/zizifoundation" >
       <Routes>
-        <Route path="/" element={<LandingPage/>}></Route>
+        <Route exact path="/" element={<LandingPage/>}></Route>
         <Route path="/about" element={<Aboutzizi/>}></Route>
         <Route path="/join_us" element={<Joinzizi/>}></Route>
         <Route path="/our_projects" element={<OurProjects/>}></Route>
@@ -40,7 +39,7 @@ function App() {
         <Route path="/project_details" element={<ProjectDetails/>}></Route>
 
       </Routes>
-    </HashRouter>
+        
   )
 
 
