@@ -17,9 +17,8 @@ function App() {
   return(
     <BrowserRouter basename="/zizifoundation" >
       <Routes>
-        <Route  exact path="/zizifoundation" element={<LandingPage/>}></Route>
         <Route path="/" element={<LandingPage/>}></Route>
-        <Route path="/zizifoundation/about" element={<Aboutzizi/>}></Route>
+        <Route path="/about" element={<Aboutzizi/>}></Route>
         <Route path="/join_us" element={<Joinzizi/>}></Route>
         <Route path="/our_projects" element={<OurProjects/>}></Route>
         <Route path="/contact" element={<Contact/>}></Route>
