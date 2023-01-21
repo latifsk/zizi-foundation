@@ -33,8 +33,6 @@ import {TiWeatherPartlySunny as Climate} from "react-icons/ti"
 import {MdOutlineEmojiFoodBeverage as Food} from "react-icons/md"
 
 
-import {projectHighlight} from "../datasets/projectData.js"
-
 function LandingPage(){
  
 
@@ -55,7 +53,7 @@ function LandingPage(){
                     {/* body of page */}
                     <div className="h-full px-20 flex flex-col place-content-center">
                         <div className="text-8xl">
-                            <div className="sm:text-5xl">Help maintain the </div>
+                            <div className="sm:text-5xl max-[400px]:text-2xl">Help maintain the </div>
                             <div className=" text-blue-500">smile. </div>
                         </div>
                         <div className="w-fit my-10">

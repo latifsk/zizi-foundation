@@ -37,7 +37,6 @@ function Joinzizi(){
         <div>
             {/* navigation bar */}
             <Navbar />
-            S
             
             {/* main body */}
             <div className="px-20 flex flex-col place-items-center">
