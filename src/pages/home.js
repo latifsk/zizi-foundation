@@ -51,7 +51,7 @@ function LandingPage(){
 
 
                     {/* body of page */}
-                    <div className="h-full px-20 flex flex-col place-content-center">
+                    <div className="h-full px-20 w-auto flex flex-col place-content-center">
                         <div className="text-8xl">
                             <div className="sm:text-5xl max-[400px]:text-2xl">Help maintain the </div>
                             <div className=" text-blue-500">smile. </div>

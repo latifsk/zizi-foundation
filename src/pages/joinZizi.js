@@ -62,7 +62,7 @@ function Joinzizi(){
 
 <div className='my-10 grid grid-cols-2 gap-10 max-[640px]:grid-cols-1 w-full'>
 
-                    <img className='h-full mt-10 object-cover' src={require('../assets/join.jpg')} alt="Zizi Foundation logo"/>
+                    <img className='h-fit mt-10 object-cover' src={require('../assets/join.jpg')} alt="Zizi Foundation logo"/>
                     
                     <div className=''>
 
