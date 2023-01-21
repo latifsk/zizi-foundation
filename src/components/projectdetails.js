@@ -1,10 +1,12 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import "../index.css";
 import Support from "../components/support";
+import { FiChevronLeft } from "react-icons/fi";
 
 function ProjectDetails() {
   const location = useLocation();
+  const navigate = useNavigate();
   console.log("location", location);
   return (
     <div>
@@ -15,6 +17,14 @@ function ProjectDetails() {
           alt=""
           className="projectDetails__image"
         />
+
+        <div
+          style={{ position: "absolute", top: "30px", left: "30px" }}
+          onClick={() => navigate("/our_projects")}
+          className="projectDetails__back"
+        >
+          <FiChevronLeft size={40} color={"white"} />
+        </div>
       </div>
 
       {/*The title, date and description section*/}
