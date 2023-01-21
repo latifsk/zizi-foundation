@@ -31,6 +31,8 @@ import {GiMicrochip as Technology} from "react-icons/gi"
 import {GiTrophiesShelf as Leadership} from "react-icons/gi"
 import {TiWeatherPartlySunny as Climate} from "react-icons/ti"
 import {MdOutlineEmojiFoodBeverage as Food} from "react-icons/md"
+import Support from "../components/support";
+import Copyright from "../components/copyright";
 
 
 function LandingPage(){
@@ -264,8 +266,7 @@ function LandingPage(){
 
 
                 {/* footer */}
-                <FooterFull />
-
+                <Support/>
 
 
               
