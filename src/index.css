@@ -102,6 +102,10 @@ code {
 .donate__accountNumber {
   color: var(--zizi-blue);
   font-size: 25px;
+<<<<<<< HEAD
+=======
+  
+>>>>>>> b166417131c37040c88955f7fec7dca26919da9e
 }
 
 .donate__bankAccount,
@@ -242,6 +246,7 @@ code {
   max-width: 500px;
 }
 
+<<<<<<< HEAD
 .projectDetails__back {
   background-color: black;
   border-radius: 30px;
@@ -254,6 +259,8 @@ code {
   cursor: pointer;
 }
 
+=======
+>>>>>>> b166417131c37040c88955f7fec7dca26919da9e
 /* @media only screen and (max-width: 640px) {
   
 } */
@@ -398,6 +405,7 @@ code {
   }
 }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 640px) {
   .navbar {
     background-color: white;
@@ -412,10 +420,32 @@ code {
   }
 
   .navbaricon:hover {
+=======
+
+@media only screen and (max-width: 640px) {
+  .navbar{
+    background-color: white;
+  }
+  
+  .navbartext{
+    color: rgb(29, 128, 146);
+  }
+
+  .navbaricon{
+    color: rgb(29, 128, 146);
+
+  }
+
+  .navbaricon:hover{
+>>>>>>> b166417131c37040c88955f7fec7dca26919da9e
     border: 2px solid rgb(29, 128, 146);
   }
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> b166417131c37040c88955f7fec7dca26919da9e
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

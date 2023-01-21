@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import { useLocation, useNavigate } from "react-router-dom";
 import "../index.css";
 import Support from "../components/support";
@@ -7,6 +8,14 @@ import { FiChevronLeft } from "react-icons/fi";
 function ProjectDetails() {
   const location = useLocation();
   const navigate = useNavigate();
+=======
+import { useLocation } from "react-router-dom";
+import "../index.css";
+import Support from "../components/support";
+
+function ProjectDetails() {
+  const location = useLocation();
+>>>>>>> b166417131c37040c88955f7fec7dca26919da9e
   console.log("location", location);
   return (
     <div>
@@ -17,6 +26,7 @@ function ProjectDetails() {
           alt=""
           className="projectDetails__image"
         />
+<<<<<<< HEAD
 
         <div
           style={{ position: "absolute", top: "30px", left: "30px" }}
@@ -25,6 +35,8 @@ function ProjectDetails() {
         >
           <FiChevronLeft size={40} color={"white"} />
         </div>
+=======
+>>>>>>> b166417131c37040c88955f7fec7dca26919da9e
       </div>
 
       {/*The title, date and description section*/}

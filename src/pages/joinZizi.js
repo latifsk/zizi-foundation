@@ -37,7 +37,10 @@ function Joinzizi(){
         <div>
             {/* navigation bar */}
             <Navbar />
+<<<<<<< HEAD
             S
+=======
+>>>>>>> b166417131c37040c88955f7fec7dca26919da9e
             
             {/* main body */}
             <div className="px-20 flex flex-col place-items-center">
@@ -63,13 +66,25 @@ function Joinzizi(){
 
 <div className='my-10 grid grid-cols-2 gap-10 max-[640px]:grid-cols-1 w-full'>
 
+<<<<<<< HEAD
                     <img className='h-full mt-10 object-cover' src={require('../assets/join.jpg')} alt="Zizi Foundation logo"/>
+=======
+
+                    <div className='h-96'>
+                        <img className='object-cover' src={require('../assets/join.jpg')} alt="Zizi Foundation logo"/>
+                    </div>
+>>>>>>> b166417131c37040c88955f7fec7dca26919da9e
                     
                     <div className=''>
 
                         {/* volunteer form */}
+<<<<<<< HEAD
                             <form  ref={form} onSubmit={sendEmail} className='w-full mt-10'>
                                 <div className='flex flex-col mt-5'>
+=======
+                            <form  ref={form} onSubmit={sendEmail} className='w-full'>
+                                <div className='flex flex-col'>
+>>>>>>> b166417131c37040c88955f7fec7dca26919da9e
                                     <label>Name</label>
                                     <input type={'text'} placeholder="Your full name" name="user_name" value={username} onChange={(ev)=>{setUser(ev.target.value) }} className='border p-1' />
                                 </div>
