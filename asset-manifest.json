@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zizifoundation/static/css/main.1a9bc287.css",
-    "main.js": "/zizifoundation/static/js/main.5623edff.js",
+    "main.js": "/zizifoundation/static/js/main.863e6830.js",
     "static/js/787.4c87ed3c.chunk.js": "/zizifoundation/static/js/787.4c87ed3c.chunk.js",
     "static/media/join.jpg": "/zizifoundation/static/media/join.e32d1574f352fa920c0e.jpg",
     "static/media/clothe4.jpg": "/zizifoundation/static/media/clothe4.273e0483c98502cbd2ff.jpg",
@@ -42,11 +42,11 @@
     "static/media/bgkids.jpg": "/zizifoundation/static/media/bgkids.fc342064a9d5e8e90339.jpg",
     "index.html": "/zizifoundation/index.html",
     "main.1a9bc287.css.map": "/zizifoundation/static/css/main.1a9bc287.css.map",
-    "main.5623edff.js.map": "/zizifoundation/static/js/main.5623edff.js.map",
+    "main.863e6830.js.map": "/zizifoundation/static/js/main.863e6830.js.map",
     "787.4c87ed3c.chunk.js.map": "/zizifoundation/static/js/787.4c87ed3c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a9bc287.css",
-    "static/js/main.5623edff.js"
+    "static/js/main.863e6830.js"
   ]
 }
