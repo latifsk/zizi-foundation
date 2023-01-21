@@ -251,6 +251,7 @@ code {
 .projectDetails__back:hover {
   background-color: var(--zizi-yellow);
   transition: all 0.4s ease;
+  cursor: pointer;
 }
 
 /* @media only screen and (max-width: 640px) {
