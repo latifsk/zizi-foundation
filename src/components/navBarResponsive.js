@@ -28,7 +28,7 @@ const Navbar = () => {
                 </div> 
                 
                 <div className=" flex  lg:flex lg:items-center lg:w-auto md::flex md:items-center md::w-auto max-[640px]:hidden"> 
-                        <div className="text-sm lg:flex-grow"> 
+                        <nav className="text-sm lg:flex-grow"> 
                             <Link to={"/"} className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-white-200 hover:text-blue-600 mr-4"> Home </Link>
                             <Link to={"/about"} className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-white-200 hover:text-blue-600 mr-4"> About us </Link> 
                             <Link to={"/our_projects"} className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-white-200 hover:text-blue-600 mr-4"> Our Projects </Link> 
@@ -36,14 +36,14 @@ const Navbar = () => {
                             <Link to={"/contact"} className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-white-200 hover:text-blue-600 mr-4"> Contact </Link> 
                             <Link to={"/donate"} className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-white-200 hover:text-blue-600"> Donate </Link> 
                             
-                        </div>
+                        </nav>
                 </div> 
 
             </div>
 
         {
             showMenu && (
-                <div className="pb-5 text-sm grid grid-rows-6 place-items-center lg:flex-grow min-[700px]: lg:hidden sm:hidden md:hidden bg-white z-30 absolute  w-full "> 
+                <nav className="pb-5 text-sm grid grid-rows-6 place-items-center lg:flex-grow min-[700px]: lg:hidden sm:hidden md:hidden bg-white z-30 absolute  w-full "> 
                                 
                                 <Link to={"/"} className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-black hover:text-blue-500 mr-4">Home</Link>
                                 <Link to={"/about"} className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-black hover:text-blue-500 mr-4"> About us </Link> 
@@ -52,7 +52,7 @@ const Navbar = () => {
                                 <Link to={"/contact"} className="max-[640px]:block inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-black hover:text-blue-500 mr-4">Contact</Link> 
                                 <Link to={"/donate"} className="max-[640px]:block items-center inline-block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0 text-black hover:text-blue-500">Donate</Link> 
                                 
-                </div>
+                </nav>
 
             )
         }
