@@ -3,6 +3,7 @@ import Copyright from "../components/copyright";
 import HugeTitle from "../components/hugetitle";
 import Subtitle from "../components/subtitle";
 import Navbar from "../components/navBarResponsive";
+import { Link } from "react-router-dom";
 
 // import "../index.css";
 
@@ -83,7 +84,7 @@ function Donate() {
   
 
         <div className="flex justify-center p-5">
-          Do you have other things you would like to donate? <a href="/contact" className="text-blue-600 pl-2 hover:cursor-pointer animate-bounce">Contact us</a>
+          Do you have other things you would like to donate? <Link to="/contact" className="text-blue-600 pl-2 hover:cursor-pointer animate-bounce">Contact us</Link>
         </div>
 
         <Copyright />

@@ -129,7 +129,7 @@ function OurProjects() {
                   title="Feed the street children"
                   date={"November, 2022"}
                   description={
-                    "This was a food fare organized to commemorate the birthday of the founder and CEO of zizifoundation. The event was aimed at reaching out to the street children to share various kinds of food and drinks with them on the street of Madina, a suburb of Accra. The foundation also took the opportunity to interact and inspired young folks, giving them hopes and some encouragements."
+                    "The event was aimed at reaching out to the street children to share various kinds of food and drinks with them on the street of Madina, a suburb of Accra..."
                   }
                   img1={feed1}
                   img2={feed2}
@@ -150,7 +150,7 @@ function OurProjects() {
                   title="EduFare"
                   date={"January, 2023"}
                   description={
-                    "Education is surely the key to every nation’s development. Education is one of the core mandates of Zizifoundation. The foundation seeks to empower the youth in leadership, entrepreneurship, and technology through various educational programs. EduFare is one of the educational programs slated by zizifoundation, which is aimed at identifying and supporting various schools in deprived communities with teaching and learning materials. As an advocate of education, we believe these numerous supports would go a long way to bring positive change in education."
+                    "Education is surely the key to every nation’s development. Education is one of the core mandates of Zizifoundation. The foundation seeks to empower the youth in leadership, entrepreneurship, and technology through various educational programs... "
                   }
                   img1={edufare1}
                   img2={edufare2}
