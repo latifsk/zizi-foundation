@@ -78,20 +78,21 @@ function Joinzizi(){
 
                                 <div className='flex flex-col mt-5'>
                                     <label>Email</label>
-                                    <input type={'email'} placeholder="example: ziziuser@gmail.com" name="user_email" className= 'border p-1'  value={usermail} onChange={(ev)=>{setUser(ev.target.value) }} />
+                                    <input type={'email'} placeholder="example: ziziuser@gmail.com" name="user_email" className= 'border p-1'  value={usermail} onChange={(ev)=>{setMail(ev.target.value) }} />
                                 </div>
 
                                 <div className='flex flex-col mt-5'>
                                     <label>Phone number</label>
-                                    <input type={'tel'} placeholder="example: 0542345678, +233272345678 etc." name="user_tel" value={usernum} onChange={(ev)=>{setUser(ev.target.value) }} className='border p-1' />
+                                    <input type={'tel'} placeholder="example: 0542345678, +233272345678 etc." name="user_tel" value={usernum} onChange={(ev)=>{setNum(ev.target.value) }} className='border p-1' />
                                 </div>
 
                                 <div className='flex flex-col mt-5'>
                                     <label>Message</label>
-                                    <textarea name="user_message" placeholder='Kindly, briefly introduce yourself...' maxLength={1500} type={'text'} className='border p-1 max-h-96' value={usermessage} onChange={(ev)=>{setUser(ev.target.value) }} />
+                                    <textarea name="user_message" placeholder='Kindly, briefly introduce yourself...' maxLength={1500} type={'text'} className='border p-1 max-h-96' value={usermessage} onChange={(ev)=>{setMessage(ev.target.value) }} />
                                 </div>
 
-                                <input type={'submit'} className='border mt-5 py-3 px-10 rounded text-white animate-pulse font-medium bg-blue-400 hover:animate-none hover:bg-blue-700 cursor-pointer' value={"Become a hero"}  />
+                                <input type={'submit'} className='submitbutton border mt-5 py-3 px-10 rounded text-white animate-pulse font-medium bg-blue-400 hover:animate-none hover:bg-blue-700 cursor-pointer' value={"Send"}  />
+
                                 
                             </form>
 
