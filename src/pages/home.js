@@ -21,7 +21,6 @@ import gifts from "../assets/gift.jpg";
 
 // components
 import Navbar from "../components/navBarResponsive";
-import FooterFull from "../components/footer";
 import Project from "../components/project";
 
 
@@ -32,7 +31,7 @@ import {GiTrophiesShelf as Leadership} from "react-icons/gi"
 import {TiWeatherPartlySunny as Climate} from "react-icons/ti"
 import {MdOutlineEmojiFoodBeverage as Food} from "react-icons/md"
 import Support from "../components/support";
-import Copyright from "../components/copyright";
+import { Link } from "react-router-dom";
 
 
 function LandingPage(){
@@ -260,7 +259,7 @@ function LandingPage(){
                     
                     {/* see projects button */}
                     <div>
-                        <a href="/our_projects" className="border border-blue-600 px-10 py-2 rounded hover:bg-blue-600 hover:text-white">See all projects</a>
+                        <Link to="/our_projects" className="border border-blue-600 px-10 py-2 rounded hover:bg-blue-600 hover:text-white">See all projects</Link>
                     </div>
                 </div>
 

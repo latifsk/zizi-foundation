@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../index.css";
 import Copyright from "./copyright";
 import HugeTitle from "./hugetitle";
@@ -14,8 +15,8 @@ function Support() {
         <Subtitle subtitle={"What now?"} />
         <HugeTitle hugetitle={"Support our mission"} />
         <div className="support__buttons">
-          <a href="/donate" className="support__donate">DONATE</a>
-          <a href="/join_us" className="support__volunteer">VOLUNTEER</a>
+          <Link to="/donate" className="support__donate">DONATE</Link>
+          <Link to="/join_us" className="support__volunteer">VOLUNTEER</Link>
         </div>
 
         <Copyright />

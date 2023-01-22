@@ -1,22 +1,22 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import Navbar from '../components/navBarResponsive';
-import FooterFull from "../components/footer.js"
+import Support from '../components/support';
 
 function Aboutzizi(){
 
 
 
-    const [team, setTeam] = useState([
-        {id:1, nameofMember:"Dwumfour Abdullai Aziz", roleofMember:""},
-        {id:2, nameofMember:"Isaac Adjei", roleofMember:""},
-        {id:3, nameofMember:"Aisha Badmus", roleofMember:""},
-        {id:4, nameofMember:"Kwame Abladzo", roleofMember:""},
-        {id:5, nameofMember:"Mohammed Toffic", roleofMember:""},
-        {id:6, nameofMember:"Yakubu Alice", roleofMember:""},
-        {id:7, nameofMember:"Christabel Edinam", roleofMember:""},
-        {id:8, nameofMember:"Azianogbe Wisdom", roleofMember:""}
-    ])
+    // const [team, setTeam] = React.useState([
+    //     {id:1, nameofMember:"Dwumfour Abdullai Aziz", roleofMember:""},
+    //     {id:2, nameofMember:"Isaac Adjei", roleofMember:""},
+    //     {id:3, nameofMember:"Aisha Badmus", roleofMember:""},
+    //     {id:4, nameofMember:"Kwame Abladzo", roleofMember:""},
+    //     {id:5, nameofMember:"Mohammed Toffic", roleofMember:""},
+    //     {id:6, nameofMember:"Yakubu Alice", roleofMember:""},
+    //     {id:7, nameofMember:"Christabel Edinam", roleofMember:""},
+    //     {id:8, nameofMember:"Azianogbe Wisdom", roleofMember:""}
+    // ])
 
 
 
@@ -92,7 +92,7 @@ function Aboutzizi(){
             </div>
 
             {/* footer */}
-            <FooterFull />
+            <Support />
 
 
 
